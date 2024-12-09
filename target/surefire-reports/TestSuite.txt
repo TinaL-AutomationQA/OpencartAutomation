@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.31 s <<< FAILURE! -- in TestSuite
-testCases.CT001_AccountRegistrationTest.testRegistration -- Time elapsed: 4.312 s <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.37 s <<< FAILURE! -- in TestSuite
+testCases.CT001_AccountRegistrationTest.testRegistration -- Time elapsed: 4.665 s <<< FAILURE!
 java.lang.AssertionError: expected [Your Account Has Been Created!！] but found [Your Account Has Been Created!]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1578)

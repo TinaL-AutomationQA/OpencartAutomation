@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-08T14:58:54 PST" name="Suite" finished-at="2024-12-08T14:59:09 PST" duration-ms="14568">
+  <suite started-at="2024-12-09T10:57:54 PST" name="Suite" finished-at="2024-12-09T10:58:10 PST" duration-ms="15907">
     <groups>
       <group name="Master">
         <method signature="CT001_AccountRegistrationTest.testRegistration()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" name="testRegistration" class="testCases.CT001_AccountRegistrationTest"/>
@@ -15,9 +15,9 @@
         <method signature="CT001_AccountRegistrationTest.testRegistration()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" name="testRegistration" class="testCases.CT001_AccountRegistrationTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2024-12-08T14:58:54 PST" name="Test" finished-at="2024-12-08T14:59:09 PST" duration-ms="14568">
+    <test started-at="2024-12-09T10:57:54 PST" name="Test" finished-at="2024-12-09T10:58:10 PST" duration-ms="15907">
       <class name="testCases.CT001_AccountRegistrationTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-08T14:58:54 PST" name="setUp" finished-at="2024-12-08T14:58:58 PST" duration-ms="4013" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-09T10:57:54 PST" name="setUp" finished-at="2024-12-09T10:57:59 PST" duration-ms="4200" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testRegistration()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-08T14:58:58 PST" name="testRegistration" finished-at="2024-12-08T14:59:02 PST" duration-ms="4122" status="FAIL">
+        <test-method signature="testRegistration()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-09T10:57:59 PST" name="testRegistration" finished-at="2024-12-09T10:58:03 PST" duration-ms="4484" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Your Account Has Been Created!！] but found [Your Account Has Been Created!]]]>
@@ -83,13 +83,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-08T14:59:03 PST" name="tearDown" finished-at="2024-12-08T14:59:04 PST" duration-ms="1333" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CT001_AccountRegistrationTest@56928307]" started-at="2024-12-09T10:58:03 PST" name="tearDown" finished-at="2024-12-09T10:58:05 PST" duration-ms="1340" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.CT001_AccountRegistrationTest -->
       <class name="testCases.CT002_LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-08T14:59:04 PST" name="setUp" finished-at="2024-12-08T14:59:06 PST" duration-ms="2025" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-09T10:58:05 PST" name="setUp" finished-at="2024-12-09T10:58:07 PST" duration-ms="2428" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,11 +105,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testLogin()[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-08T14:59:06 PST" name="testLogin" finished-at="2024-12-08T14:59:07 PST" duration-ms="1384" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-09T10:58:07 PST" name="testLogin" finished-at="2024-12-09T10:58:09 PST" duration-ms="1739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-08T14:59:07 PST" name="tearDown" finished-at="2024-12-08T14:59:09 PST" duration-ms="1299" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CT002_LoginTest@30e868be]" started-at="2024-12-09T10:58:09 PST" name="tearDown" finished-at="2024-12-09T10:58:10 PST" duration-ms="1249" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

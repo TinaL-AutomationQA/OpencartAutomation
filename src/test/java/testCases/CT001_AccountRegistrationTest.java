@@ -52,7 +52,7 @@ public class CT001_AccountRegistrationTest extends BaseClass{
 		
 		logger.info("*****Validating expected message*****");
 		String msg=ar.gerConfirmationMsg();
-		String expectedMessage = "Your Account Has Been Created!！";
+		String expectedMessage = "Your Account Has Been Created!";
 		Assert.assertEquals(msg, expectedMessage);
 		
 	    } catch (Exception e) {

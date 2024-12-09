@@ -239,3 +239,13 @@
 14:59:07.102 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
 14:59:07.881 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
 14:59:07.920 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
+10:57:54.449 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+10:57:59.150 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+10:57:59.381 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+10:57:59.995 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+10:58:00.001 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+10:58:03.580 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+10:58:07.599 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+10:58:08.313 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+10:58:09.268 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
+10:58:09.338 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
