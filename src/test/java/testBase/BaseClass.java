@@ -26,10 +26,10 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
-//可能会在很多test case都重复使用的代码则可以移到BaseClass里面
+
 public class BaseClass {
 	public static WebDriver driver;//add static in step 8
-	public Logger logger;//创建对象用来生成log
+	public Logger logger;// generate log
 	public Properties p;//reading common value from the properties file
 	@BeforeClass(groups= {"Sanity","Regression","Master","DataDriven"})
 	@Parameters({"os","browsers"})
