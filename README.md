@@ -49,7 +49,9 @@ src/test/java
 ## How to Use
 
 - Clone the Repository
+```bash  
 git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
+```
 - Import the project into your IDE (e.g., IntelliJ IDEA or Eclipse).
 - Configure the config.properties file:
 - Set the browser type (e.g., chrome).
