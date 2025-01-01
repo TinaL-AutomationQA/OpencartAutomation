@@ -56,15 +56,16 @@ git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
 5.Set the application URL.
 6.Run the desired TestNG XML file (e.g., testng.xml) to execute the test suite.
 
-##Technologies Used
+## Technologies Used
 
--Programming Language: Java
--Automation Tool: Selenium WebDriver
--Test Management: TestNG
--Reporting: ExtentReports
--Data Handling: Apache POI (Excel)
--Build Tool: Maven
--Logging: Log4j
+- Programming Language: Java
+- Automation Tool: Selenium WebDriver
+- Test Management: TestNG
+- Reporting: ExtentReports
+- Data Handling: Apache POI (Excel)
+- Build Tool: Maven
+- Logging: Log4j
+
 
 ##Test Reports
 The framework generates detailed HTML reports using ExtentReports. Reports include:
