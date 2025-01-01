@@ -1,12 +1,12 @@
-#**Selenium Test Automation Framework**
+#** Selenium Test Automation Framework **
 
-##Overview
+## Overview
 
 This is a hybrid automation testing framework built using **Selenium**, **TestNG**, and **ExtentReports**. It is designed to test web applications with a focus on scalability, reusability, and maintainability. The framework supports key testing scenarios, including functional testing, regression testing, and data-driven testing.
 
 This framework was developed as part of my self-learning journey to enhance my skills in automation testing.
 
-##Features
+## Features
 
 - **Page Object Model (POM)**: Encapsulates web elements and actions for better code organization and reuse.
 - **Data-Driven Testing**: Integrates with Apache POI to dynamically read test data from Excel files.
@@ -15,7 +15,7 @@ This framework was developed as part of my self-learning journey to enhance my s
 - **Cross-Browser Testing**: Supports testing on Chrome, Firefox, and Edge.
 - **Logging**: Configured with Log4j for detailed execution logs.
 
-##Project Structure
+## Project Structure
 ```bash
 src/test/java
 │
@@ -46,7 +46,7 @@ src/test/java
 ├── screenshots         # Screenshots for failed test cases
 ```
 
-##How to Use
+## How to Use
 
 1.Clone the Repository
 git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
@@ -67,7 +67,7 @@ git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
 - Logging: Log4j
 
 
-##Test Reports
+## Test Reports
 The framework generates detailed HTML reports using ExtentReports. Reports include:
 
 Test execution status (Pass/Fail/Skip).
@@ -76,13 +76,13 @@ Logs for debugging.
 Sample report:
 [![Report Screenshot](https://github.com/TinaL-AutomationQA/OpencartAutomation/blob/master/report%20screenshot/Report_with_screenshot.png)
 
-##Future Enhancements
+## Future Enhancements
 
-.Integrate with CI/CD tools like Jenkins.
-.Add support for API testing with RestAssured or Postman.
-.Implement Dockerized Selenium Grid for easier remote execution.
+- Integrate with CI/CD tools like Jenkins.
+- Add support for API testing with RestAssured or Postman.
+- Implement Dockerized Selenium Grid for easier remote execution.
 
-##Contact
+## Contact
 
 If you have any questions or suggestions about this framework, feel free to reach out!
 Email: [liut44194@gmail.com]
