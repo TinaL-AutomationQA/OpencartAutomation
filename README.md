@@ -58,13 +58,13 @@ git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
 
 ##Technologies Used
 
-1.Programming Language: Java
-2.Automation Tool: Selenium WebDriver
-3.Test Management: TestNG
-4.Reporting: ExtentReports
-5.Data Handling: Apache POI (Excel)
-6.Build Tool: Maven
-7.Logging: Log4j
+-Programming Language: Java
+-Automation Tool: Selenium WebDriver
+-Test Management: TestNG
+-Reporting: ExtentReports
+-Data Handling: Apache POI (Excel)
+-Build Tool: Maven
+-Logging: Log4j
 
 ##Test Reports
 The framework generates detailed HTML reports using ExtentReports. Reports include:
