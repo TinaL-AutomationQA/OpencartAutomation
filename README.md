@@ -50,7 +50,6 @@ src/test/java
 
 1.Clone the Repository
 git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
-
 2.Import the project into your IDE (e.g., IntelliJ IDEA or Eclipse).
 3.Configure the config.properties file:
 4.Set the browser type (e.g., chrome).
@@ -59,13 +58,13 @@ git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
 
 ##Technologies Used
 
-Programming Language: Java
-Automation Tool: Selenium WebDriver
-Test Management: TestNG
-Reporting: ExtentReports
-Data Handling: Apache POI (Excel)
-Build Tool: Maven
-Logging: Log4j
+1.Programming Language: Java
+2.Automation Tool: Selenium WebDriver
+3.Test Management: TestNG
+4.Reporting: ExtentReports
+5.Data Handling: Apache POI (Excel)
+6.Build Tool: Maven
+7.Logging: Log4j
 
 ##Test Reports
 The framework generates detailed HTML reports using ExtentReports. Reports include:
