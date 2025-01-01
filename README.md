@@ -1,4 +1,4 @@
-#** Selenium Test Automation Framework **
+# ** Selenium Test Automation Framework **
 
 ## Overview
 
@@ -48,13 +48,13 @@ src/test/java
 
 ## How to Use
 
-1.Clone the Repository
+- 1.Clone the Repository
 git clone https://github.com/TinaL-AutomationQA/OpencartAutomation.git
-2.Import the project into your IDE (e.g., IntelliJ IDEA or Eclipse).
-3.Configure the config.properties file:
-4.Set the browser type (e.g., chrome).
-5.Set the application URL.
-6.Run the desired TestNG XML file (e.g., testng.xml) to execute the test suite.
+- 2.Import the project into your IDE (e.g., IntelliJ IDEA or Eclipse).
+- 3.Configure the config.properties file:
+- 4.Set the browser type (e.g., chrome).
+- 5.Set the application URL.
+- 6.Run the desired TestNG XML file (e.g., testng.xml) to execute the test suite.
 
 ## Technologies Used
 
