@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Dec 09 10:57:54 PST 2024</td>
+<td>Started on:</td><td>Sat Jan 04 14:11:14 PST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>15 seconds (15907 ms)</td>
+<tr><td>Total time:</td><td>38 seconds (38723 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,19 +76,30 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.CT001_AccountRegistrationTest.testRegistration()'><b>testRegistration</b><br>Test class: testCases.CT001_AccountRegistrationTest</td>
-<td><div><pre>java.lang.AssertionError: expected [Your Account Has Been Created!！] but found [Your Account Has Been Created!]
-	at testCases.CT001_AccountRegistrationTest.testRegistration(CT001_AccountRegistrationTest.java:56)
+<td title='testCases.CT002_LoginTest.testLogin()'><b>testLogin</b><br>Test class: testCases.CT002_LoginTest</td>
+<td><div><pre>java.lang.AssertionError: Test case failed due to exception: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7905d0684e8bed86978d1ae1f75df9f3, clickElement {id=f.1D4CB4FE676A7BE09AF9240BDEFA24A3.d.5F3A357F02A090EA25BB656117E48B05.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61607}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61607/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7905d0684e8bed86978d1ae1f75df9f3)] -&gt; xpath: //ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[normalize-space()=&apos;Login&apos;]]
+Session ID: 7905d0684e8bed86978d1ae1f75df9f3
+	at testCases.CT002_LoginTest.testLogin(CT002_LoginTest.java:35)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 35 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1349373781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1349373781'><pre>java.lang.AssertionError: expected [Your Account Has Been Created!！] but found [Your Account Has Been Created!]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1083615749", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1083615749'><pre>java.lang.AssertionError: Test case failed due to exception: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: &apos;4.25.0&apos;, revision: &apos;8a8aea2337&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7905d0684e8bed86978d1ae1f75df9f3, clickElement {id=f.1D4CB4FE676A7BE09AF9240BDEFA24A3.d.5F3A357F02A090EA25BB656117E48B05.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61607}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61607/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7905d0684e8bed86978d1ae1f75df9f3)] -&gt; xpath: //ul[@class=&apos;dropdown-menu dropdown-menu-right&apos;]//a[normalize-space()=&apos;Login&apos;]]
+Session ID: 7905d0684e8bed86978d1ae1f75df9f3
 	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1578)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
-	at org.testng.Assert.assertEquals(Assert.java:666)
-	at testCases.CT001_AccountRegistrationTest.testRegistration(CT001_AccountRegistrationTest.java:56)
+	at testCases.CT002_LoginTest.testLogin(CT002_LoginTest.java:35)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -120,8 +131,8 @@ function toggleAllBoxes() {
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 </pre></div></td>
-<td>4</td>
-<td>testCases.CT001_AccountRegistrationTest@56928307</td></tr>
+<td>11</td>
+<td>testCases.CT002_LoginTest@332796d3</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -132,10 +143,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.CT002_LoginTest.testLogin()'><b>testLogin</b><br>Test class: testCases.CT002_LoginTest</td>
+<td title='testCases.CT004_DifferentWayNavigateToRegistrationPage.NavigateToRegistrationPage()'><b>NavigateToRegistrationPage</b><br>Test class: testCases.CT004_DifferentWayNavigateToRegistrationPage<br>Test method: Verify user can navigate to the registration page from multiple paths</td>
 <td></td>
-<td>1</td>
-<td>testCases.CT002_LoginTest@30e868be</td></tr>
+<td>2</td>
+<td>testCases.CT004_DifferentWayNavigateToRegistrationPage@4f0100a7</td></tr>
+<tr>
+<td title='testCases.CT001_AccountRegistrationTest.testRegistration()'><b>testRegistration</b><br>Test class: testCases.CT001_AccountRegistrationTest</td>
+<td></td>
+<td>4</td>
+<td>testCases.CT001_AccountRegistrationTest@1603cd68</td></tr>
 </table><p>
 </body>
 </html>

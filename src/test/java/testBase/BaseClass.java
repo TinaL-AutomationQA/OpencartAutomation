@@ -17,19 +17,23 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 public class BaseClass {
 	public static WebDriver driver;//add static in step 8
-	public Logger logger;// generate log
+
+	public static Logger logger;// generate log
 	public Properties p;//reading common value from the properties file
 	@BeforeClass(groups= {"Sanity","Regression","Master","DataDriven"})
 	@Parameters({"os","browsers"})
@@ -128,4 +132,5 @@ public class BaseClass {
 		    sourceFile.renameTo(targetFile);
 		    return targetFilePath;
 		}
+		
 }

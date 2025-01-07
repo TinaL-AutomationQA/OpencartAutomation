@@ -3,6 +3,11 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+
+import testBase.BaseClass;
 
 public class LoginPage extends BasePage{
 
@@ -13,11 +18,14 @@ public class LoginPage extends BasePage{
 	
 	@FindBy(xpath="//input[@id='input-email']") WebElement txtInputEmail;
 	@FindBy(xpath="//input[@id='input-password']") WebElement txtInputPassword;
-	@FindBy(xpath="//input[@value='Login']") WebElement bntLogin;
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement bntContinue;
+	@FindBy(xpath="//input[@value='Login']") WebElement bntLogin;
+	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement alertWarning;
+	
+	
 	
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Login']") WebElement bntLogin1;
-	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement bntRegister;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement bntRegisterRight;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Forgotten Password']") WebElement bntForgottenPassword;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='My Account']") WebElement bntMyAccount;
 	@FindBy(xpath="//a[normalize-space()='Address Book']") WebElement bntAddressBook;
@@ -30,31 +38,60 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Transactions']") WebElement bntTransactions;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Newsletter']") WebElement bntNewsletter;
 	
-	public void InputEmail(String email)
+	public void inputEmail(String email)
     {
 		txtInputEmail.sendKeys(email);
     }
 	
-	public void InputPassword(String password)
+	public void inputPassword(String password)
     {
 		txtInputPassword.sendKeys(password);
     }
 	
-	 public void ClickLogin()
-	  {
-		 bntLogin.click();
-	  }
+	public void clickContinue()
+	{
+		bntContinue.click();
+	}
 	
+	public void clickLoginInloginPage()
+	{
+		bntLogin.click();
+	}
+	 
+	public void clickRegisterOptionFromRight()
+	{
+		bntRegisterRight.click();
+	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	public String gerWarningMsg() {
+		  try{
+			  return(alertWarning.getText());
+			  
+		  }catch(Exception e) {
+			  return(e.getMessage());
+		  }
+	}
+	public void validateWarningMsg(String expectedMsg) {
+		waitForElementVisible(alertWarning);
+    	String actualMsg =alertWarning.getText();
+    	if(actualMsg.equals(expectedMsg))
+    	{
+    		BaseClass.logger.info("Warning massaage is correct: "+actualMsg);
+    	}
+    	else
+    	{
+    		BaseClass.logger.error("Warning massaage mismatch.Expected"+expectedMsg);
+    		Assert.fail("Warning massaage failed.");
+    	}
+    }
 }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+

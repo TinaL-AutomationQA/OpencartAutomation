@@ -20,9 +20,9 @@ public class CT002_LoginTest extends BaseClass {
 			logger.info("*****Clicked on Login Link*****");
 		
 			LoginPage lg=new LoginPage(driver);
-			lg.InputEmail(p.getProperty("email"));
-			lg.InputPassword(p.getProperty("password"));
-			lg.ClickLogin();
+			lg.inputEmail(p.getProperty("email"));
+			lg.inputPassword(p.getProperty("password"));
+			lg.clickLoginInloginPage();
 			logger.info("*****Login MyAccount*****");
 			
 			MyAccountPage ac=new MyAccountPage(driver);

@@ -1,1 +1,2 @@
 just test 
+mvn test -DtestGroup=Master

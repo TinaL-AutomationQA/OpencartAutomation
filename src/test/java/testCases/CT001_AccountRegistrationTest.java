@@ -24,7 +24,7 @@ public class CT001_AccountRegistrationTest extends BaseClass{
 	{
 		driver.quit();
 	}*/
-	@Test(groups={"Regression","Master"})
+	@Test(groups={"Regression","Master"},description="Veryfied registration with correct email and password" )
 	public void testRegistration()
 	{
 		logger.info("*****Starting CT001_AccountRegistrationTest*****");

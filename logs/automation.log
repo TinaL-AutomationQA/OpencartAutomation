@@ -1,251 +1,300 @@
-15:42:50.596 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.620 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.622 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.623 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.647 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.648 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.650 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.677 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.679 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.680 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.706 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.707 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.708 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.731 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.733 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.734 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
-15:42:50.760 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
-15:42:50.761 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
-15:42:50.803 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
-15:42:51.734 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
-15:42:52.446 [main] INFO  testCases.CT003_LoginDDT - *****Login MyAccount*****
-15:42:52.765 [main] INFO  testCases.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
-15:42:52.778 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
-15:42:53.114 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
-15:42:53.346 [main] INFO  testCases.CT003_LoginDDT - *****Login MyAccount*****
-15:43:03.385 [main] INFO  testCases.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
-15:43:03.391 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
-15:43:03.685 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
-15:43:03.970 [main] INFO  testCases.CT003_LoginDDT - *****Login MyAccount*****
-15:43:14.142 [main] INFO  testCases.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
-15:43:14.145 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
-15:43:14.424 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
-15:43:14.732 [main] INFO  testCases.CT003_LoginDDT - *****Login MyAccount*****
-10:39:50.756 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
-10:39:51.049 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml
-
-10:39:55.577 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-10:39:57.000 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-10:39:57.484 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-10:39:57.489 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-10:40:00.811 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-10:40:00.855 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
-10:40:03.261 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-10:40:05.383 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-10:40:05.976 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-10:40:06.093 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-11:04:10.037 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
-11:04:10.450 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml
-
-11:04:16.506 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-11:04:17.924 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-11:04:18.362 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-11:04:18.365 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-11:04:19.092 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-11:04:21.459 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
-11:06:40.158 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
-11:06:40.418 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml
-
-11:06:42.781 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-11:06:44.935 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-11:06:45.725 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-11:06:45.732 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-11:06:49.120 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-11:06:49.181 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
-11:10:57.243 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
-11:10:57.509 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml
-
-11:11:00.920 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-11:11:02.595 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-11:11:02.927 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-11:11:02.930 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-11:11:03.896 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-11:11:06.228 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
-11:11:08.439 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-11:11:10.903 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-11:11:11.762 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-11:11:11.829 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-11:16:09.023 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
-11:16:09.262 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml
-
-11:16:12.588 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-11:16:13.953 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-11:16:14.410 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-11:16:14.413 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-11:16:17.596 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-11:16:20.486 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-11:16:22.284 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-11:16:22.661 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-11:16:22.979 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-11:24:13.786 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\test-output\testng-failed.xml"
-11:24:14.023 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\test-output\testng-failed.xml
-
-11:24:17.080 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-11:24:18.405 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-11:24:18.812 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-11:24:18.816 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-11:24:19.648 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-16:04:44.023 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:04:44.311 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+14:05:59.911 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:00.383 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:06:00.477 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:06:00.478 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:06:00.915 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:06:00.981 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:00.983 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:06:01.363 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:06:01.699 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:06:01.739 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:01.739 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:06:01.740 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+14:06:08.192 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:06:09.683 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:06:10.137 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:06:10.140 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:06:11.088 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+14:06:13.503 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+14:06:18.901 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:06:20.745 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:06:21.189 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:06:21.190 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:06:24.781 [main] ERROR testCases.CT001_AccountRegistrationTest - Exception occurred: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0894aa9f34273679e4f1e49c48622347, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56737}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56737/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0894aa9f34273679e4f1e49c48622347)] -> xpath: //input[@value='Continue']]
+Session ID: 0894aa9f34273679e4f1e49c48622347
+14:06:28.570 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:06:30.370 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:06:33.325 [main] ERROR testCases.CT002_LoginTest - Exception occurred: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d1e050b7aa9ea8a6c3fc4779b2681f3b, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55846}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55846/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (d1e050b7aa9ea8a6c3fc4779b2681f3b)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: d1e050b7aa9ea8a6c3fc4779b2681f3b
+14:06:37.357 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:06:39.317 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+14:06:39.355 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:39.722 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:06:39.756 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:06:39.757 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:06:40.192 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:06:40.216 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:40.216 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:06:40.669 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:06:40.984 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:06:41.043 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:06:41.043 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:06:41.043 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+14:08:43.813 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+14:08:51.341 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:08:51.823 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:08:52.351 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:08:52.355 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:08:55.952 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+14:08:55.989 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+14:09:03.081 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:09:04.703 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:09:15.167 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [e47543565432827b5f23dd8330ef6755, clickElement {id=f.A5C2F15FEEAD569300A29564A19A36AB.d.9D1A2A4B1B2F9C5B8F2E25300DDD9EBD.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56193}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56193/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (e47543565432827b5f23dd8330ef6755)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: e47543565432827b5f23dd8330ef6755
+14:09:21.792 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:09:22.534 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+14:09:22.545 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:09:23.024 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:09:23.037 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:09:23.037 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:09:23.386 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:09:23.412 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:09:23.413 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:09:23.939 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:09:24.247 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:09:24.259 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:09:24.259 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:09:24.259 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+14:11:14.614 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+14:11:21.226 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:11:21.421 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:11:22.213 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:11:22.219 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:11:25.539 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+14:11:25.581 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+14:11:32.230 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:11:33.010 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:11:43.424 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7905d0684e8bed86978d1ae1f75df9f3, clickElement {id=f.1D4CB4FE676A7BE09AF9240BDEFA24A3.d.5F3A357F02A090EA25BB656117E48B05.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61607}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61607/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7905d0684e8bed86978d1ae1f75df9f3)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 7905d0684e8bed86978d1ae1f75df9f3
+14:11:50.018 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:11:50.711 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+14:11:50.721 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:11:51.219 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:11:51.232 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:11:51.232 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:11:51.545 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:11:51.576 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:11:51.576 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:11:51.973 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:11:52.298 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:11:52.314 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:11:52.315 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:11:52.315 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+14:12:22.853 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+14:12:23.184 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:04:52.554 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-16:04:52.685 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-16:04:53.159 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-16:04:53.163 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-16:04:54.255 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-16:04:59.216 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-16:05:00.723 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-16:05:01.081 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-16:05:01.451 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-16:06:59.964 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:07:00.270 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+14:12:29.290 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:12:29.712 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:12:30.171 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:12:30.175 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:12:33.342 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+14:12:33.402 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+14:12:39.724 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:12:40.514 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:12:50.977 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2c7a6898abea0685133fa2f790d71fb6, clickElement {id=f.077347806BD862FF433220A62AC718E8.d.104091ABB7FA1CD1CFDCC440C68C567F.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51229}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51229/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2c7a6898abea0685133fa2f790d71fb6)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 2c7a6898abea0685133fa2f790d71fb6
+14:12:57.542 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:12:58.418 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+14:12:58.438 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:12:58.824 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:12:58.844 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:12:58.844 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:12:59.175 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:12:59.200 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:12:59.200 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:12:59.570 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:12:59.848 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:12:59.871 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:12:59.871 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:12:59.871 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+14:37:01.507 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
+14:43:37.398 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+14:43:37.718 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:08:05.463 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:08:05.739 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+14:43:45.432 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+14:43:46.668 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+14:43:47.294 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+14:43:47.297 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+14:43:51.212 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+14:43:51.271 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+14:43:58.323 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:43:59.287 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:44:09.707 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [2f3b4efa7de29c5be881cad438fd3ed0, clickElement {id=f.2E3E1BC164ECF4E6B05EFEE2525F1401.d.702B54436CA0EB3DBB32AA4564ED0A13.e.89}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60185}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60185/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (2f3b4efa7de29c5be881cad438fd3ed0)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 2f3b4efa7de29c5be881cad438fd3ed0
+14:44:16.724 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:44:17.580 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+14:44:17.606 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:44:18.010 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+14:44:18.028 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+14:44:18.029 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+14:44:18.345 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+14:44:18.363 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:44:18.363 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:44:18.846 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+14:44:19.232 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+14:44:19.253 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+14:44:19.253 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+14:44:19.254 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+15:55:36.900 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+15:55:37.663 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:11:50.176 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:11:50.652 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+15:55:46.691 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+15:55:48.443 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+15:55:48.477 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+15:55:48.898 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+15:55:59.021 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Failed to click 'Login' link: Expected condition failed: waiting for visibility of [[EdgeDriver: MicrosoftEdge on windows (88f30909c60ed56e6af8ec14016ef9e7)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51853}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51853/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 88f30909c60ed56e6af8ec14016ef9e7
+16:00:34.233 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:00:34.669 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:20:07.296 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:20:07.558 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:00:42.688 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:00:43.923 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:00:43.965 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:00:44.469 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:00:54.601 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [d04503606379a8adefbcf6002108e938, findElement {value=//button[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62794}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62794/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d04503606379a8adefbcf6002108e938
+16:02:59.514 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:02:59.840 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:20:30.858 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-16:20:31.104 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-16:20:31.568 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-16:20:31.575 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-16:20:35.254 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-16:20:41.726 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-16:20:42.339 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-16:20:43.042 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-16:20:43.131 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-16:21:24.369 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:21:24.653 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:03:07.618 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:03:08.600 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:03:08.622 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:03:08.984 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:03:19.213 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [20d1acfb5bc5caa61a9d6c38f266c0ba, findElement {value=//button[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55395}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55395/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 20d1acfb5bc5caa61a9d6c38f266c0ba
+16:03:53.899 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:03:54.252 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:21:29.601 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-16:21:29.874 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-16:21:30.393 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-16:21:30.395 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-16:21:33.654 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-16:21:38.857 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-16:21:39.438 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-16:21:40.053 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-16:21:40.224 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-13:25:30.120 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:25:30.609 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:25:36.135 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-13:25:36.389 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-13:25:37.008 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-13:25:37.012 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-13:25:40.673 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-13:25:44.791 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-13:25:45.435 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-13:25:46.400 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-13:25:46.478 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-13:27:08.304 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:27:08.563 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:28:26.615 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:28:26.923 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:33:17.110 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:33:17.353 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:40:00.834 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:40:01.092 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:42:06.033 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:42:06.305 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:52:11.191 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:52:11.481 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-13:53:38.195 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml"
-13:53:38.468 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\grid-browser.xml
-
-14:29:31.351 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:30:14.312 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:32:59.591 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:32:59.872 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+16:04:04.862 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:04:07.565 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:04:07.608 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:04:07.967 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:04:18.056 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//button[normalize-space()='Login']"}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [bfd411e2bac387f453b9fe8894775873, findElement {value=//button[normalize-space()='Login'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:65068}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65068/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bfd411e2bac387f453b9fe8894775873
+16:09:09.426 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:09:09.906 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-14:33:03.992 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-14:33:04.165 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-14:33:04.683 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-14:33:04.692 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-14:33:08.035 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-14:33:12.842 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-14:33:13.456 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-14:33:14.237 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-14:33:14.281 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-14:33:37.288 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:33:40.361 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-14:33:40.541 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-14:33:40.978 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-14:33:40.981 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-14:33:44.208 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-14:33:47.677 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-14:33:48.531 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-14:33:49.382 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-14:33:49.419 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-14:52:03.517 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:52:07.610 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-14:52:07.762 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-14:52:08.333 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-14:52:08.337 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-14:52:11.776 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-14:52:15.583 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-14:52:16.297 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-14:52:17.200 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-14:52:17.256 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-14:58:54.438 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-14:58:58.863 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-14:58:59.038 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-14:58:59.580 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-14:58:59.583 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-14:59:02.926 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-14:59:06.538 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-14:59:07.102 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-14:59:07.881 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-14:59:07.920 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
-10:57:54.449 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-10:57:59.150 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
-10:57:59.381 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
-10:57:59.995 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
-10:58:00.001 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
-10:58:03.580 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
-10:58:07.599 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
-10:58:08.313 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
-10:58:09.268 [main] INFO  testCases.CT002_LoginTest - *****Login MyAccount*****
-10:58:09.338 [main] INFO  testCases.CT002_LoginTest - *****Finish CT002_LoginTest*****
+16:09:18.132 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:09:19.500 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:09:19.530 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:09:19.946 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:09:20.184 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+16:09:40.556 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Exception occurred: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //dirv[@class='alert alert-danger alert-dismissible']' (tried for 10 second(s) with 500 milliseconds interval)
+16:19:19.348 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:19:19.744 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+16:19:27.613 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:19:28.709 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:19:28.726 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:19:29.149 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:19:29.425 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+16:19:29.524 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Warning massaage mismatch.Expected Warning: No match for E-Mail Address and/or Password. 
+16:21:12.506 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:21:12.823 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+16:21:19.985 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:21:21.454 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:21:21.501 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:21:21.919 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:21:22.241 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+16:21:22.320 [main] ERROR testCases.CT005_LoginWithInvalidCredentials - Warning massaage mismatch.Expected Warning: No match for E-Mail Address and/or Password.
+16:43:32.287 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\testng.xml"
+16:43:32.920 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\testng.xml
+
+16:54:55.218 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+16:54:55.586 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+16:55:04.024 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****CT005_LoginWithInvalidCredentials*****
+16:55:05.990 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+16:55:06.021 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+16:55:06.537 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+16:55:06.868 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+16:55:06.959 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - Warning massaage is correct: Warning: No match for E-Mail Address and/or Password.
+16:55:06.959 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - **Step4: Validate the warning massage **
+16:55:06.959 [main] INFO  testCases.CT005_LoginWithInvalidCredentials - *****Finish CT005_LoginWithInvalidCredentials*****

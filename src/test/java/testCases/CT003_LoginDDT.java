@@ -21,9 +21,9 @@ public class CT003_LoginDDT extends BaseClass {
 		logger.info("*****Clicked on Login Link*****");
 	
 		LoginPage lg=new LoginPage(driver);
-		lg.InputEmail(email);
-		lg.InputPassword(pwd);
-		lg.ClickLogin();
+		lg.inputEmail(email);
+		lg.inputPassword(pwd);
+		lg.clickLogin();
 		logger.info("*****Login MyAccount*****");
 		
 		MyAccountPage ac=new MyAccountPage(driver);

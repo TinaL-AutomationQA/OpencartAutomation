@@ -1,0 +1,375 @@
+11:28:22.766 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a02664a67b325b6c7fdd2a6634b43b51, clickElement {id=f.3FE695F948CEDA9A4F3C3AE332E04DEA.d.41FB8BE1B8659A723826F0AD637EB054.e.90}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58507}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58507/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a02664a67b325b6c7fdd2a6634b43b51)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: a02664a67b325b6c7fdd2a6634b43b51
+11:28:29.838 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:29.846 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:29.847 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.475 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.477 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.479 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.505 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.507 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.508 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.541 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.542 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.543 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.567 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.568 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.569 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.596 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.598 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.600 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.632 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.634 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.636 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.664 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.666 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.667 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.688 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.689 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.690 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.708 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.709 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.714 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.732 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.733 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.734 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.755 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.756 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.757 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.773 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.774 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.775 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.794 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:28:30.795 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:28:30.797 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:28:30.819 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:28:31.467 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:28:42.042 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:28:43.052 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:28:53.550 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:28:54.282 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:29:04.783 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:29:05.414 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:29:22.743 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+11:29:23.612 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+11:29:23.640 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:29:24.048 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+11:29:24.068 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+11:29:24.068 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+11:29:24.491 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+11:29:24.517 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:29:24.517 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:29:24.965 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+11:29:25.278 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+11:29:25.301 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:29:25.301 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:29:25.301 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+11:33:26.707 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+11:33:33.702 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+11:33:34.090 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+11:33:34.899 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+11:33:34.905 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+11:33:38.343 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+11:33:38.383 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+11:33:45.327 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+11:33:46.910 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+11:33:57.433 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8660a43ab2e20dde979fb0b9ee970c61, clickElement {id=f.3F31652F4959BE15A3FDC8E27510988B.d.4A3B22594EFBCBA4083FB74A3E6EB5A5.e.89}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:58266}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58266/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (8660a43ab2e20dde979fb0b9ee970c61)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 8660a43ab2e20dde979fb0b9ee970c61
+11:34:04.732 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:04.736 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:04.737 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.443 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.444 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.475 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.477 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.478 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.527 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.528 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.529 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.558 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.559 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.560 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.587 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.589 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.590 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.617 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.618 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.618 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.645 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.646 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.646 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.667 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.668 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.695 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.696 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.697 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.718 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.718 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.720 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.737 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.738 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.741 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.762 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.763 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.764 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.789 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:34:05.790 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:34:05.791 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:34:05.810 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:34:06.633 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:34:17.148 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:34:17.818 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:34:28.277 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:34:28.952 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:34:39.444 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:34:40.483 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:34:57.654 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+11:34:58.586 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+11:34:58.601 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:34:59.003 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+11:34:59.017 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+11:34:59.018 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+11:34:59.325 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+11:34:59.345 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:34:59.346 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:34:59.722 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+11:35:00.072 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+11:35:00.090 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:35:00.091 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:35:00.091 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+11:44:11.187 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+11:44:19.450 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+11:44:19.691 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+11:44:20.420 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+11:44:20.425 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+11:44:23.807 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+11:44:23.853 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+11:44:31.373 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+11:44:32.273 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+11:44:42.695 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [fb0687c3cc50490c378bd1d3e22e3cf6, clickElement {id=f.E6B0299C298D4EE17971F716590BC920.d.CF2CB9AC970406087699B2A102F007EA.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64352}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64352/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (fb0687c3cc50490c378bd1d3e22e3cf6)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: fb0687c3cc50490c378bd1d3e22e3cf6
+11:44:50.502 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:50.506 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:50.508 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.245 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.246 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.248 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.280 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.282 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.283 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.328 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.328 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.329 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.366 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.368 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.370 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.402 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.402 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.404 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.429 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.430 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.431 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.470 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.472 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.473 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.502 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.503 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.504 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.531 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.532 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.533 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.551 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.552 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.552 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.575 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.577 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.597 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.598 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.599 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.626 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+11:44:51.629 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+11:44:51.631 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+11:44:51.682 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:44:52.264 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:45:02.900 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:45:03.551 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:45:14.011 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:45:14.763 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:45:25.346 [main] INFO  testCases.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+11:45:25.774 [main] INFO  testCases.CT003_LoginDDT - *****Clicked on Login Link*****
+11:46:54.100 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+11:47:00.869 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+11:47:01.087 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+11:47:01.885 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+11:47:01.889 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+11:47:05.124 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+11:47:05.162 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+11:47:12.086 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+11:47:13.020 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+11:47:23.421 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [36321de476dbae60e3435dff7ddc7ad8, clickElement {id=f.F2516378947DEF342273D9E761AD2B63.d.350E88805951834122A6B5AB697BC4F1.e.92}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:56709}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56709/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (36321de476dbae60e3435dff7ddc7ad8)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 36321de476dbae60e3435dff7ddc7ad8
+11:47:29.904 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+11:47:30.826 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+11:47:30.842 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:47:31.306 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+11:47:31.318 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+11:47:31.318 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+11:47:31.678 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+11:47:31.693 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:47:31.694 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:47:32.174 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+11:47:32.514 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+11:47:32.534 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:47:32.535 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:47:32.535 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+11:51:59.479 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
+11:52:04.613 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+11:52:06.572 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+11:52:17.038 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f5a56c7d449c483614fb8494d4193942, clickElement {id=f.988B6A1640BA6E2A489B17A2EC6EE795.d.DAF69384600AE1787868E340FFDF5AC8.e.96}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62651}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62651/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (f5a56c7d449c483614fb8494d4193942)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: f5a56c7d449c483614fb8494d4193942
+11:52:21.492 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+11:52:23.369 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+11:52:23.384 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:52:23.724 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+11:52:23.734 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+11:52:23.735 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+11:52:24.106 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+11:52:24.152 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:52:24.152 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:52:24.576 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+11:52:24.911 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+11:52:24.987 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+11:52:24.989 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+11:52:24.989 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+13:47:08.211 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+13:47:17.922 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+13:47:18.744 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+13:47:19.562 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+13:47:19.566 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+13:47:23.204 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+13:47:23.248 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+13:47:29.936 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+13:47:30.820 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+13:47:41.238 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7573b9d67c26f5dbddfbd1da92f66a7a, clickElement {id=f.B7ACCA0AFD9F1C4BF3D11C7C0A173366.d.2B747DF271CD91B8F692862DC02E5146.e.91}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60716}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60716/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7573b9d67c26f5dbddfbd1da92f66a7a)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 7573b9d67c26f5dbddfbd1da92f66a7a
+13:47:47.604 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+13:47:48.279 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+13:47:48.289 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:47:48.807 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+13:47:48.819 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+13:47:48.819 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+13:47:49.136 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+13:47:49.153 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:47:49.153 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+13:47:49.565 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+13:47:49.930 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+13:47:49.950 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:47:49.950 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+13:47:49.950 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+13:49:26.791 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
+13:49:31.971 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+13:49:33.674 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+13:49:44.123 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8037ab987d4b82cf020bb3c46971101c, clickElement {id=f.395B7E4CB5D74D65EF9772377907723C.d.3DB350DF6B3BF102E72AABDD3F2DE1B7.e.101}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51513}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51513/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8037ab987d4b82cf020bb3c46971101c)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 8037ab987d4b82cf020bb3c46971101c
+13:49:48.185 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+13:49:49.826 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+13:49:49.846 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:49:50.303 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+13:49:50.349 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+13:49:50.349 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+13:49:50.775 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+13:49:50.807 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:49:50.807 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+13:49:51.171 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+13:49:51.595 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+13:49:51.633 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+13:49:51.633 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+13:49:51.633 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+13:49:58.057 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+13:49:59.480 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+13:49:59.981 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+13:49:59.982 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+13:50:00.991 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+13:50:03.379 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+13:50:07.996 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+13:50:09.364 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+13:50:09.767 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+13:50:09.768 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Providing customer details*****
+13:50:10.584 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Validating expected message*****
+13:50:12.928 [main] INFO  testCases.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+13:50:16.034 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+13:50:17.844 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+13:50:20.867 [main] ERROR testCases.CT002_LoginTest - Exception occurred: Error communicating with the remote browser. It may have died.
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [40f61cea62ab02417a14cbd2b1f7dfc1, clickElement [id]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53795}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53795/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (40f61cea62ab02417a14cbd2b1f7dfc1)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 40f61cea62ab02417a14cbd2b1f7dfc1
+14:05:36.563 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\grouping.xml"
+14:05:42.358 [main] INFO  testCases.CT002_LoginTest - *****Starting CT002_LoginTest*****
+14:05:43.129 [main] INFO  testCases.CT002_LoginTest - *****Clicked on Login Link*****
+14:05:53.844 [main] ERROR testCases.CT002_LoginTest - Exception occurred: element not interactable
+  (Session info: chrome=131.0.6778.204)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b15f9a880df8e36a9955feb5194a51f, clickElement {id=f.FBFCBCBEE4CEE40380BE501F486D1E42.d.3D6834CF8EB5FF8AF0DBB4B62A9FBD74.e.82}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\liut4\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61460}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61460/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b15f9a880df8e36a9955feb5194a51f)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: 0b15f9a880df8e36a9955feb5194a51f
+14:05:57.746 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - *****CT004_DifferentWayNavigateToRegistrationPage*****
+14:05:59.883 [main] INFO  testCases.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**

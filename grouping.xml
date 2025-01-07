@@ -1,25 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name=" grouping Suite">
-<groups>
- <run> <!--把想要跑的组和不想跑的组添加进来-->
-    <include name="Master"/>
-    <!--<include name="Sanity"/>-->
-    <!--<exclude name="Regression"/>-->
- </run>
- </groups>
- <listeners>
-<listener class-name="utilities.ExtentReportManager"/>
-</listeners>
-  <test thread-count="5" name="Test">
-  <!--不同的浏览器和操作系统测试,添加完parameter之后在base class里也要引用参数-->
-  <parameter name="os" value="windows"/>
-  <parameter name="browsers" value="chrome"/>
-    <classes>
-      <class name="testCases.CT001_AccountRegistrationTest"/>
-      <class name="testCases.CT002_LoginTest"/>
-      <class name="testCases.CT003_LoginDDT"/>
-    </classes>
-  </test> <!-- Test -->
-
-</suite> <!-- Suite -->
+<suite name="Grouping Suite">
+    <listeners>
+        <listener class-name="utilities.ExtentReportManager"/>
+    </listeners>
+ <!-- Sanity test group-->   
+    <test thread-count="5" name="Sanity Test">
+        <!--不同的浏览器和操作系统测试,添加完parameter之后在base class里也要引用参数-->
+        <parameter name="os" value="windows"/>
+        <parameter name="browsers" value="chrome"/>
+        
+        <groups>
+            <run> <!--把想要跑的组添加进来-->
+                <include name="Sanity"/>
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="testCases.CT002_LoginTest"/>
+            <class name="testCases.CT003_LoginDDT"/>
+            <class name="testCases.CT004_DifferentWayNavigateToRegistrationPage"/>
+        </classes>
+    </test>
+<!-- Regression test group-->    
+    <test thread-count="5" name="Regression Test">
+        <!--不同的浏览器和操作系统测试,添加完parameter之后在base class里也要引用参数-->
+        <parameter name="os" value="windows"/>
+        <parameter name="browsers" value="chrome"/>
+        
+        <groups>
+            <run> <!--把想要跑的组添加进来-->
+                <include name="Regression"/>
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="testCases.CT001_AccountRegistrationTest"/>
+        </classes>
+    </test>
+<!-- Master test group-->    
+    <test thread-count="5" name="Master Test">
+        <!--不同的浏览器和操作系统测试,添加完parameter之后在base class里也要引用参数-->
+        <parameter name="os" value="windows"/>
+        <parameter name="browsers" value="chrome"/>
+        
+        <groups>
+            <run> <!--把想要跑的组添加进来-->
+                <include name="Master"/>
+            </run>
+        </groups>
+        
+        <classes>
+            <class name="testCases.CT001_AccountRegistrationTest"/>
+            <class name="testCases.CT002_LoginTest"/>
+          <!-- <class name="testCases.CT003_LoginDDT"/>-->
+            <class name="testCases.CT004_DifferentWayNavigateToRegistrationPage"/>
+      </classes>
+    </test>
+</suite>

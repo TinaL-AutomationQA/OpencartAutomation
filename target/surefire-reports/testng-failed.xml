@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browsers" value="edge"/>
     <classes>
-      <class name="testCases.CT001_AccountRegistrationTest">
+      <class name="testCases.CT002_LoginTest">
         <methods>
+          <include name="testLogin"/>
           <include name="tearDown"/>
-          <include name="testRegistration"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.CT001_AccountRegistrationTest -->
+      </class> <!-- testCases.CT002_LoginTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

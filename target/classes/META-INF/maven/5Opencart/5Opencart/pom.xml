@@ -13,19 +13,19 @@
             </plugin>
 
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.2.2</version>
-                <configuration>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>master.xml</suiteXmlFile> <!--which testNG xml file to run-->>
-                    </suiteXmlFiles>
-                </configuration>
-            </plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>3.2.2</version>
+    <configuration>
+        <suiteXmlFiles>
+            <suiteXmlFile>master.xml</suiteXmlFile> <!-- 指定包含分组的 TestNG XML 文件 -->
+        </suiteXmlFiles>
+       <!-- <groups>${testGroup}</groups> --><!-- 动态指定组 -->
+    </configuration>
+</plugin>
         </plugins>
     </pluginManagement>
 </build>
-  
   
   
   <dependencies>
