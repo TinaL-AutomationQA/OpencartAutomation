@@ -1,4 +1,4 @@
-package testCases;
+package testCases.user;
 
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;

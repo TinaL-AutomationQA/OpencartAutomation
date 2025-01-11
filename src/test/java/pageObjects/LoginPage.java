@@ -21,12 +21,13 @@ public class LoginPage extends BasePage{
 	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement bntContinue;
 	@FindBy(xpath="//input[@value='Login']") WebElement bntLogin;
 	@FindBy(xpath="//div[@class='alert alert-danger alert-dismissible']") WebElement alertWarning;
-	
+	@FindBy(xpath="//div[@class='form-group']//a[normalize-space()='Forgotten Password']") WebElement bntForgottenPassword;
+	@FindBy(xpath="//div[@class='alert alert-success alert-dismissible']") WebElement alertEmailSuccess;
 	
 	
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Login']") WebElement bntLogin1;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Register']") WebElement bntRegisterRight;
-	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Forgotten Password']") WebElement bntForgottenPassword;
+	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Forgotten Password']") WebElement bntForgottenPassword1;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='My Account']") WebElement bntMyAccount;
 	@FindBy(xpath="//a[normalize-space()='Address Book']") WebElement bntAddressBook;
 	@FindBy(xpath="//a[@class='list-group-item'][normalize-space()='Wish List']") WebElement bntWishList;
@@ -84,9 +85,46 @@ public class LoginPage extends BasePage{
     		Assert.fail("Warning massaage failed.");
     	}
     }
+	
+	public void LoginAccout()
+	{
+		String email = BaseClass.p.getProperty("email");
+		String password=BaseClass.p.getProperty("password");
+		inputEmail(email);
+		inputPassword(password);
+		clickLoginInloginPage();
+	}
+	
+	public void clickForgottenPassworde()
+	{
+		bntForgottenPassword.click();
+	}
+	
+	
+	public void validateEmailSuccessMsg(String expectedEmailMsg) {
+		waitForElementVisible(alertEmailSuccess);
+    	String actualEmailMsg =alertEmailSuccess.getText();
+    	if(actualEmailMsg.equals(expectedEmailMsg))
+    	{
+    		BaseClass.logger.info("Email massaage is correct: "+actualEmailMsg);
+    	}
+    	else
+    	{
+    		BaseClass.logger.error("Email massaage mismatch.Expected"+expectedEmailMsg);
+    		Assert.fail("Email massaage failed.");
+    	}
+    }
+	
+	
+	
+	
+	
+	
+	
+	
 }
 	
-	
+
 	
 	
 	

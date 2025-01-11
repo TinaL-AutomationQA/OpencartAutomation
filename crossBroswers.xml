@@ -9,7 +9,7 @@
   <parameter name="os" value="windows"/>
   <parameter name="browsers" value="chrome"/>
     <classes>
-      <class name="testCases.CT001_AccountRegistrationTest"/>
+      <class name="testCases.user.CT001_AccountRegistrationTest"/>
     </classes>
   </test> <!-- Test -->
   
@@ -17,7 +17,7 @@
   <parameter name="os" value="windows"/>
   <parameter name="browsers" value="edge"/>
     <classes>
-      <class name="testCases.CT001_AccountRegistrationTest"/>
+      <class name="testCases.user.CT001_AccountRegistrationTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

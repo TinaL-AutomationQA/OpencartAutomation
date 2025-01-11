@@ -1,4 +1,4 @@
-package testCases;
+package testCases.user;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class CT005_LoginWithInvalidCredentials extends BaseClass {
 	@Test(groups= {"Regression","Master"},description = "Validate login into the Application using invalid credentials") 
 	public void LoginWithInvalidCredentials() {
-		logger.info("*****CT005_LoginWithInvalidCredentials*****");
+		logger.info("*****Starting CT005_LoginWithInvalidCredentials*****");
 		try {
 			//Step1:Open Home page, click MyAccount->Login (ER: Navigate to Login page)
 			HomePage hp=new HomePage(driver);
@@ -22,7 +22,7 @@ public class CT005_LoginWithInvalidCredentials extends BaseClass {
 		    
 		   //Step2:Enter invalid email address and password into the 'E-Mail Address' field 
 		    LoginPage lg=new LoginPage(driver);
-		    lg.inputEmail("xyzabc123@gmail.com");
+		    lg.inputEmail("xzabc123@gmail.com");
 		    lg.inputPassword("xyzabc123");
 		    logger.info("**Step2:Enter invalid email address and password into the 'E-Mail Address' field **");
 		    

@@ -1,4 +1,4 @@
-package testCases;
+package testCases.user;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -11,7 +11,7 @@ import testBase.BaseClass;
 public class CT004_DifferentWayNavigateToRegistrationPage extends BaseClass {
 	@Test(groups= {"Sanity","Master"},description = "Verify user can navigate to the registration page from multiple paths") 
 	public void NavigateToRegistrationPage() {
-		logger.info("*****CT004_DifferentWayNavigateToRegistrationPage*****");
+		logger.info("*****Starting CT004_DifferentWayNavigateToRegistrationPage*****");
 		try {
 			//Step1:Open Home page, click MyAccount->Register (ER: Navigate to Register page)
 			HomePage hp=new HomePage(driver);

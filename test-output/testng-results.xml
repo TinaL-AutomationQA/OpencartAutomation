@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-04T16:54:55 PST" name="Suite" finished-at="2025-01-04T16:55:08 PST" duration-ms="12762">
+  <suite started-at="2025-01-09T17:39:05 PST" name="Suite" finished-at="2025-01-09T17:39:13 PST" duration-ms="8455">
     <groups>
       <group name="Master">
-        <method signature="CT005_LoginWithInvalidCredentials.LoginWithInvalidCredentials()[pri:0, instance:testCases.CT005_LoginWithInvalidCredentials@78383390]" name="LoginWithInvalidCredentials" class="testCases.CT005_LoginWithInvalidCredentials"/>
+        <method signature="TC_SF_001_SearchingExistingProductName.SearchingExistingProduct()[pri:0, instance:testCases.product.TC_SF_001_SearchingExistingProductName@16414e40]" name="SearchingExistingProduct" class="testCases.product.TC_SF_001_SearchingExistingProductName"/>
       </group> <!-- Master -->
       <group name="Regression">
-        <method signature="CT005_LoginWithInvalidCredentials.LoginWithInvalidCredentials()[pri:0, instance:testCases.CT005_LoginWithInvalidCredentials@78383390]" name="LoginWithInvalidCredentials" class="testCases.CT005_LoginWithInvalidCredentials"/>
+        <method signature="TC_SF_001_SearchingExistingProductName.SearchingExistingProduct()[pri:0, instance:testCases.product.TC_SF_001_SearchingExistingProductName@16414e40]" name="SearchingExistingProduct" class="testCases.product.TC_SF_001_SearchingExistingProductName"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-04T16:54:55 PST" name="Test" finished-at="2025-01-04T16:55:08 PST" duration-ms="12762">
-      <class name="testCases.CT005_LoginWithInvalidCredentials">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.CT005_LoginWithInvalidCredentials@78383390]" started-at="2025-01-04T16:54:55 PST" name="setUp" finished-at="2025-01-04T16:55:03 PST" duration-ms="8023" status="PASS">
+    <test started-at="2025-01-09T17:39:05 PST" name="Test" finished-at="2025-01-09T17:39:13 PST" duration-ms="8455">
+      <class name="testCases.product.TC_SF_001_SearchingExistingProductName">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.product.TC_SF_001_SearchingExistingProductName@16414e40]" started-at="2025-01-09T17:39:05 PST" name="setUp" finished-at="2025-01-09T17:39:11 PST" duration-ms="5968" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,15 +29,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginWithInvalidCredentials()[pri:0, instance:testCases.CT005_LoginWithInvalidCredentials@78383390]" started-at="2025-01-04T16:55:03 PST" name="LoginWithInvalidCredentials" description="Validate login into the Application using invalid credentials" finished-at="2025-01-04T16:55:06 PST" duration-ms="2981" status="PASS">
+        <test-method signature="SearchingExistingProduct()[pri:0, instance:testCases.product.TC_SF_001_SearchingExistingProductName@16414e40]" started-at="2025-01-09T17:39:11 PST" name="SearchingExistingProduct" description="Validate searching with an existing Product Name" finished-at="2025-01-09T17:39:12 PST" duration-ms="868" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.CT005_LoginWithInvalidCredentials@78383390]" started-at="2025-01-04T16:55:06 PST" name="tearDown" finished-at="2025-01-04T16:55:08 PST" duration-ms="1382" status="PASS">
+        </test-method> <!-- SearchingExistingProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.product.TC_SF_001_SearchingExistingProductName@16414e40]" started-at="2025-01-09T17:39:12 PST" name="tearDown" finished-at="2025-01-09T17:39:13 PST" duration-ms="1320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.CT005_LoginWithInvalidCredentials -->
+      </class> <!-- testCases.product.TC_SF_001_SearchingExistingProductName -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

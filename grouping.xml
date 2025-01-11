@@ -17,9 +17,9 @@
         </groups>
         
         <classes>
-            <class name="testCases.CT002_LoginTest"/>
-            <class name="testCases.CT003_LoginDDT"/>
-            <class name="testCases.CT004_DifferentWayNavigateToRegistrationPage"/>
+            <class name="testCases.user.CT002_LoginTest"/>
+            <class name="testCases.user.CT003_LoginDDT"/>
+            <class name="testCases.user.CT004_DifferentWayNavigateToRegistrationPage"/>
         </classes>
     </test>
 <!-- Regression test group-->    
@@ -35,7 +35,7 @@
         </groups>
         
         <classes>
-            <class name="testCases.CT001_AccountRegistrationTest"/>
+            <class name="testCases.user.CT001_AccountRegistrationTest"/>
         </classes>
     </test>
 <!-- Master test group-->    
@@ -51,10 +51,10 @@
         </groups>
         
         <classes>
-            <class name="testCases.CT001_AccountRegistrationTest"/>
-            <class name="testCases.CT002_LoginTest"/>
-          <!-- <class name="testCases.CT003_LoginDDT"/>-->
-            <class name="testCases.CT004_DifferentWayNavigateToRegistrationPage"/>
+            <class name="testCases.user.CT001_AccountRegistrationTest"/>
+            <class name="testCases.user.CT002_LoginTest"/>
+          <!-- <class name="testCases.user.CT003_LoginDDT"/>-->
+            <class name="testCases.user.CT004_DifferentWayNavigateToRegistrationPage"/>
       </classes>
     </test>
 </suite>

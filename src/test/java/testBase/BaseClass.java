@@ -34,7 +34,7 @@ public class BaseClass {
 	public static WebDriver driver;//add static in step 8
 
 	public static Logger logger;// generate log
-	public Properties p;//reading common value from the properties file
+	public static Properties p;//reading common value from the properties file
 	@BeforeClass(groups= {"Sanity","Regression","Master","DataDriven"})
 	@Parameters({"os","browsers"})
 	public void setUp(String os,String br) throws IOException
