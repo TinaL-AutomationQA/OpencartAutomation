@@ -64,3 +64,187 @@
 17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
 17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
 17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
+20:24:46.406 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:24:46.727 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:24:52.911 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
+20:24:52.911 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field**
+20:24:53.104 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step2:Click Search**
+20:24:53.756 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step3:Validate the Search Result page title**
+20:24:53.772 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Page title is correct: Search - iphone
+20:24:53.773 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step4:Validate the search result**
+20:24:53.862 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
+20:24:53.863 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
+20:24:53.863 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
+21:12:45.110 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:12:45.518 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:12:51.134 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:12:51.134 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:12:52.149 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:12:52.173 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:12:52.174 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:12:52.623 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:12:52.634 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:12:52.634 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:12:52.777 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:12:53.324 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:12:53.324 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:12:53.325 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:12:53.429 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [929af4bd974bce1cb9e105beee46f3d5, findElement {using=xpath, value=//input[@name='quantity}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62720}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62720/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 929af4bd974bce1cb9e105beee46f3d5
+21:15:12.744 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:15:13.009 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:15:18.423 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:15:18.423 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:15:19.405 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:15:19.415 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:15:19.415 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:15:19.830 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:15:19.841 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:15:19.842 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:15:19.981 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:15:20.685 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [4c4f6ce00db4864ae19844f2b2831356, findElement {using=xpath, value=//input[@name='quantity}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62874}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62874/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4c4f6ce00db4864ae19844f2b2831356
+21:17:01.280 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:17:01.544 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:17:06.713 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:17:06.713 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:17:07.650 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:17:07.666 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:17:07.666 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:17:08.169 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:17:08.181 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:17:08.181 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:17:08.313 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:17:09.091 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
+from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity]' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [3572ee2e6d0ddc1deac4b88dc6957a4a, findElement {using=xpath, value=//input[@name='quantity]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63047}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63047/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3572ee2e6d0ddc1deac4b88dc6957a4a
+21:17:37.009 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:17:37.276 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:17:42.321 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:17:42.321 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:17:43.302 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:17:43.330 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:17:43.330 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:17:43.885 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:17:43.903 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:17:43.903 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:17:44.081 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:17:44.661 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:17:44.661 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:17:44.662 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:17:54.785 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity']"}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [624cfe463ee62dec7d79456089861c78, findElement {value=//input[@name='quantity'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63111}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63111/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 624cfe463ee62dec7d79456089861c78
+21:21:37.134 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:21:37.429 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:21:42.826 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:21:42.827 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:21:43.866 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:21:43.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:21:43.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:21:44.341 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:21:44.352 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:21:44.353 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:21:44.476 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:21:45.145 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:21:45.146 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:21:45.146 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:21:55.309 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity']"}
+  (Session info: MicrosoftEdge=131.0.2903.112)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b4c18b9b4bdffdfe5f6302baa563e437, findElement {value=//input[@name='quantity'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63403}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63403/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b4c18b9b4bdffdfe5f6302baa563e437
+21:27:37.998 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+21:27:38.273 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+21:27:45.140 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+21:27:45.140 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+21:27:46.131 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+21:27:46.148 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+21:27:46.148 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+21:27:46.684 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+21:27:46.696 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+21:27:46.696 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+21:27:46.837 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+21:27:47.584 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****TC_ATC_001_AddProductToCartFromProductPage*****
+17:01:26.586 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+17:01:26.995 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+17:01:34.790 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+17:01:34.790 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+17:01:35.529 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+17:01:35.543 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+17:01:35.543 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+17:01:36.079 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+17:01:36.093 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+17:01:36.094 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+17:01:36.199 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
+17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+17:01:36.994 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****TC_ATC_001_AddProductToCartFromProductPage*****
+17:25:56.829 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+17:25:57.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+17:26:03.858 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Starting TC_CO_001NavigatingToCheckoutWithNoProductsInCart*****
+17:26:03.858 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Step1:Open Home page, Click Checkout**
+17:26:04.732 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Page title is correct: Shopping Cart
+17:26:04.733 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Validate the Shopping Cart page title**
+17:26:04.733 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****

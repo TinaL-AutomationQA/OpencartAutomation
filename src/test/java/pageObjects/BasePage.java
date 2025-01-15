@@ -83,8 +83,20 @@ public class BasePage {
         } catch (Exception e) {
             BaseClass.logger.error("Failed to click 'Login' link: " + e.getMessage());
             Assert.fail("Unable to click 'Login' link.");
-        }
+        }  
     }
+    
+ // click：Login
+    public void clickCheckout() {
+        try {
+            waitForElementVisible(bntCheckout);
+            bntCheckout.click();
+        } catch (Exception e) {
+            BaseClass.logger.error("Failed to click 'Checkout' link: " + e.getMessage());
+            Assert.fail("Unable to click 'Checkout' link.");
+        }  
+    }
+    
 
     // element locator
     @FindBy(xpath = "//span[normalize-space()='My Account']")
@@ -95,4 +107,8 @@ public class BasePage {
 
     @FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']")
     WebElement lnklogin;
+    
+    @FindBy(xpath = "//span[normalize-space()='Checkout']")
+    WebElement bntCheckout;
+    
 }

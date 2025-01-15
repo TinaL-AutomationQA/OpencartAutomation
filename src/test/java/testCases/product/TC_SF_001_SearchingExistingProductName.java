@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import pageObjects.ForgotPasswordPage;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.SearchResultPage;
 import testBase.BaseClass;
 
 public class TC_SF_001_SearchingExistingProductName extends BaseClass {
@@ -14,12 +15,19 @@ public class TC_SF_001_SearchingExistingProductName extends BaseClass {
 		logger.info("*****Starting TC_SF_001_SearchingExistingProductName*****");
 		try {
 			//Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field 
-			logger.info("**Step1:Clicked on Homepage-MyAccount-Login**");
+			logger.info("**Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field**");
 			HomePage hp=new HomePage(driver);
 			hp.inputProduct();
-			hp.clickSearch();;
 			
-		    hp.validateProduct("iPhone");
+			logger.info("**Step2:Click Search**");
+			hp.clickSearch();
+			
+			logger.info("**Step3:Validate the Search Result page title**");
+			hp.validatePageTitle("Search - iphone");
+			
+			logger.info("**Step4:Validate the search result**");
+			SearchResultPage sr=new SearchResultPage(driver);
+		    sr.validateProduct("iPhone");
 		    logger.info("Product validated successfully");
 		    
 		    } 

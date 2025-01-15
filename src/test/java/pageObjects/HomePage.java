@@ -15,7 +15,7 @@ public class HomePage extends BasePage{
      }
      @FindBy(xpath="//input[@placeholder='Search']") WebElement txtInputSearch;
      @FindBy(xpath="//button[@class='btn btn-default btn-lg']") WebElement bntSearch;
-     @FindBy(xpath="//a[normalize-space()='iPhone']") WebElement msgProduct;
+     
      
      
      
@@ -28,22 +28,11 @@ public class HomePage extends BasePage{
  	{
     	 bntSearch.click();
  	}
-     public void validateProduct(String expectedProduct) {
- 		waitForElementVisible(msgProduct);
-     	String actualProduct =msgProduct.getText();
-     	if(actualProduct.equals(expectedProduct))
-     	{
-     		BaseClass.logger.info("Product is correct: "+actualProduct);
-     	}
-     	else
-     	{
-     		BaseClass.logger.error("Product mismatch.Expected"+actualProduct);
-     		Assert.fail("Product search failed.");
-     	}
+    
      }
      
      
      
      
      
-}
+

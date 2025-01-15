@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browsers" value="edge"/>
     <classes>
-      <class name="testCases.product.TC_SF_001_SearchingExistingProductName">
+      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage">
         <methods>
           <include name="tearDown"/>
+          <include name="AddProductToCartFromProductPage"/>
           <include name="setUp"/>
-          <include name="SearchingExistingProduct"/>
         </methods>
-      </class> <!-- testCases.product.TC_SF_001_SearchingExistingProductName -->
+      </class> <!-- testCases.cart.TC_ATC_001_AddProductToCartFromProductPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
