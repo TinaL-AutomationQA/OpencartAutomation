@@ -13,6 +13,6 @@ public class AccountLogOutPage extends BasePage{
 	
 	public void clickContinue()
 	{
-		bntContinue.click();
+		clickElement(bntContinue, "Continue");
 	}
 }

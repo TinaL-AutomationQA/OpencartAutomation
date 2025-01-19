@@ -27,12 +27,50 @@ public class BasePage {
         wait.until(ExpectedConditions.visibilityOf(element));
     }
 
-    // get URL
+    // wait for element Clickable
+    protected void waitForElementClickable(WebElement element) {
+        wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
+    // click
+    protected void clickElement(WebElement element, String elementName) {
+        try {
+            element.click();
+            BaseClass.logger.info("Clicked on '" + elementName + "' successfully.");
+        } catch (Exception e) {
+            BaseClass.logger.error("Failed to click '" + elementName + "': " + e.getMessage());
+            Assert.fail("Unable to click '" + elementName + "'.");
+        }
+    }
+
+ // Send keys
+    protected void enterText(WebElement element, String text, String elementName) {
+        try {
+            element.sendKeys(text);
+            BaseClass.logger.info("Entered text '" + text + "' into '" + elementName + "' successfully.");
+        } catch (Exception e) {
+            BaseClass.logger.error("Failed to enter text into '" + elementName + "': " + e.getMessage());
+            Assert.fail("Unable to enter text into '" + elementName + "'.");
+        }
+    }
+ // Get Text
+    protected String getText(WebElement element, String elementName) {
+        try {
+            String text = element.getText(); 
+            BaseClass.logger.info("Retrieved text from '" + elementName + "': " + text);
+            return text; 
+        } catch (Exception e) {
+            BaseClass.logger.error("Failed to retrieve text from '" + elementName + "': " + e.getMessage());
+            Assert.fail("Unable to retrieve text from '" + elementName + "'.");
+            return null; 
+        }
+    }
+    
+    // Get URL
     public String getCurrentUrl() {
         return driver.getCurrentUrl();
     }
 
-    // check element exist
+    // Check element present
     public boolean isElementPresent(WebElement element) {
         try {
             waitForElementVisible(element);
@@ -42,7 +80,7 @@ public class BasePage {
         }
     }
 
-    // validate page title
+    // Validate title
     public void validatePageTitle(String expectedTitle) {
         String actualTitle = driver.getTitle();
         if (actualTitle.equals(expectedTitle)) {
@@ -52,53 +90,33 @@ public class BasePage {
             Assert.fail("Page title validation failed.");
         }
     }
-
-    // click：My Account
+    
+    // Click my Account
     public void clickMyAccount() {
-        try {
-            waitForElementVisible(lnkMyaccount);
-            lnkMyaccount.click();
-        } catch (Exception e) {
-            BaseClass.logger.error("Failed to click 'My Account' link: " + e.getMessage());
-            Assert.fail("Unable to click 'My Account' link.");
-        }
+        clickElement(lnkMyaccount, "My Account");
     }
 
-    // click：Register
+    // Click register
     public void clickRegister() {
-        try {
-            waitForElementVisible(lnkRegister);
-            lnkRegister.click();
-        } catch (Exception e) {
-            BaseClass.logger.error("Failed to click 'Register' link: " + e.getMessage());
-            Assert.fail("Unable to click 'Register' link.");
-        }
+        clickElement(lnkRegister, "Register");
     }
 
-    // click：Login
+    // Click login
     public void clickLogin() {
-        try {
-            waitForElementVisible(lnklogin);
-            lnklogin.click();
-        } catch (Exception e) {
-            BaseClass.logger.error("Failed to click 'Login' link: " + e.getMessage());
-            Assert.fail("Unable to click 'Login' link.");
-        }  
+        clickElement(lnklogin, "Login");
     }
-    
- // click：Login
-    public void clickCheckout() {
-        try {
-            waitForElementVisible(bntCheckout);
-            bntCheckout.click();
-        } catch (Exception e) {
-            BaseClass.logger.error("Failed to click 'Checkout' link: " + e.getMessage());
-            Assert.fail("Unable to click 'Checkout' link.");
-        }  
-    }
-    
 
-    // element locator
+    // Click checkout
+    public void clickCheckout() {
+        clickElement(bntCheckout, "Checkout");
+    }
+    
+   // Click Contact Us
+    public void clickContactUs() {
+        clickElement(bntContactUs, "ContactUs");
+    }
+
+    // Located element
     @FindBy(xpath = "//span[normalize-space()='My Account']")
     WebElement lnkMyaccount;
 
@@ -107,8 +125,11 @@ public class BasePage {
 
     @FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']")
     WebElement lnklogin;
-    
+
     @FindBy(xpath = "//span[normalize-space()='Checkout']")
     WebElement bntCheckout;
-    
+
+    @FindBy(xpath = "//i[@class='fa fa-phone']")
+    WebElement bntContactUs;
 }
+

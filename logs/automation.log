@@ -1,250 +1,245 @@
-15:28:07.143 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
-15:28:07.164 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
-15:28:07.510 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
-15:28:07.937 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
-15:28:07.995 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Warning massaage is correct: Warning: No match for E-Mail Address and/or Password.
-15:28:07.995 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step4: Validate the warning massage **
-15:28:07.995 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - *****Finish CT005_LoginWithInvalidCredentials*****
-15:28:24.209 [main] INFO  testCases.user.CT006_LogOutTest - *****CT006_LogOutTest*****
-15:28:24.847 [main] INFO  testCases.user.CT006_LogOutTest - *****Clicked on Login Link*****
-15:28:25.602 [main] INFO  testCases.user.CT006_LogOutTest - **Step1:Login account **
-15:28:26.228 [main] INFO  testCases.user.CT006_LogOutTest - **Step2: Click My Account Logout button **
-15:28:26.244 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Account Logout
-15:28:26.244 [main] INFO  testCases.user.CT006_LogOutTest - **Step3: Validate the Logout page title **
-15:28:26.636 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Your Store
-15:28:26.636 [main] INFO  testCases.user.CT006_LogOutTest - **Step4: Validate the Home page title **
-15:28:26.636 [main] INFO  testCases.user.CT006_LogOutTest - *****Finish CT006_LogOutTest*****
-16:49:53.332 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:49:53.627 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+20:29:45.473 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+20:29:45.507 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+20:29:45.507 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Add To Cart in the product display page**
+20:29:45.720 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Add To Cart' successfully.
+20:29:45.721 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Click Shopping Cart link in the displayed success message **
+20:29:46.284 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Shopping Cart' successfully.
+20:29:46.311 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+20:29:46.311 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+20:29:46.311 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+20:29:46.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+20:31:52.164 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:31:52.563 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
 
-16:50:01.762 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Starting CT007_ForgottenPasswordEmailIsSent*****
-16:50:02.467 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step1:Clicked on Homepage-MyAccount-Login**
-16:50:02.475 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
-16:50:02.475 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Account Login
-16:50:02.862 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step2:Clicked on Forgotten Password**
-16:50:02.887 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Forgot Your Password?
-16:50:02.888 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Forgot Your Password?
-16:50:05.561 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step4:Input Email in forgot password page and click continue**
-16:50:05.587 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
-16:50:05.644 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email massaage is correct: An email with a confirmation link has been sent your email address.
-16:50:05.644 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step4:Validate Validate Email success massage**
-16:50:05.644 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email success massage validated successfully
-16:50:05.645 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Finish CT007_ForgottenPasswordEmailIsSent*****
-16:59:21.692 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-16:59:21.987 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-16:59:27.013 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Starting CT007_ForgottenPasswordEmailIsSent*****
-16:59:27.623 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step1:Clicked on Homepage-MyAccount-Login**
-16:59:27.635 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
-16:59:27.636 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Account Login
-16:59:28.255 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step2:Clicked on Forgotten Password**
-16:59:28.276 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Forgot Your Password?
-16:59:28.276 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Forgot Your Password?
-16:59:30.977 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step3:Input Email in forgot password page and click continue**
-16:59:30.993 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
-16:59:30.994 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step4:Validate  Email success massage**
-16:59:31.058 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email massaage is correct: An email with a confirmation link has been sent your email address.
-16:59:31.058 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email success massage validated successfully
-16:59:31.058 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Finish CT007_ForgottenPasswordEmailIsSent*****
-17:27:23.192 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-17:27:23.455 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-17:27:28.468 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
-17:27:28.468 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Clicked on Homepage-MyAccount-Login**
-17:27:29.305 [main] ERROR testCases.product.TC_SF_001_SearchingExistingProductName - Product mismatch.ExpectediPhone
-17:39:04.847 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-17:39:05.094 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-17:39:11.391 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
-17:39:11.392 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Clicked on Homepage-MyAccount-Login**
-17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
-17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
-17:39:12.228 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
-20:24:46.406 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-20:24:46.727 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-20:24:52.911 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
-20:24:52.911 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field**
-20:24:53.104 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step2:Click Search**
-20:24:53.756 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step3:Validate the Search Result page title**
-20:24:53.772 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Page title is correct: Search - iphone
-20:24:53.773 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step4:Validate the search result**
-20:24:53.862 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
-20:24:53.863 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
-20:24:53.863 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
-21:12:45.110 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:12:45.518 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:12:51.134 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:12:51.134 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:12:52.149 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:12:52.173 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:12:52.174 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:12:52.623 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:12:52.634 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:12:52.634 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:12:52.777 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:12:53.324 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:12:53.324 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:12:53.325 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:12:53.429 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity' is not a valid XPath expression."}
-  (Session info: MicrosoftEdge=131.0.2903.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [929af4bd974bce1cb9e105beee46f3d5, findElement {using=xpath, value=//input[@name='quantity}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62720}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62720/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 929af4bd974bce1cb9e105beee46f3d5
-21:15:12.744 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:15:13.009 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:15:18.423 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:15:18.423 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:15:19.405 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:15:19.415 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:15:19.415 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:15:19.830 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:15:19.841 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:15:19.842 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:15:19.981 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:15:20.588 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:15:20.685 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity' is not a valid XPath expression."}
-  (Session info: MicrosoftEdge=131.0.2903.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [4c4f6ce00db4864ae19844f2b2831356, findElement {using=xpath, value=//input[@name='quantity}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:62874}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62874/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4c4f6ce00db4864ae19844f2b2831356
-21:17:01.280 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:17:01.544 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:17:06.713 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:17:06.713 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:17:07.650 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:17:07.666 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:17:07.666 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:17:08.169 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:17:08.181 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:17:08.181 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:17:08.313 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:17:08.974 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:17:09.091 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: invalid selector
-from javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression //input[@name='quantity] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '//input[@name='quantity]' is not a valid XPath expression."}
-  (Session info: MicrosoftEdge=131.0.2903.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [3572ee2e6d0ddc1deac4b88dc6957a4a, findElement {using=xpath, value=//input[@name='quantity]}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63047}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63047/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 3572ee2e6d0ddc1deac4b88dc6957a4a
-21:17:37.009 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:17:37.276 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:17:42.321 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:17:42.321 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:17:43.302 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:17:43.330 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:17:43.330 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:17:43.885 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:17:43.903 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:17:43.903 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:17:44.081 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:17:44.661 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:17:44.661 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:17:44.662 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:17:54.785 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity']"}
-  (Session info: MicrosoftEdge=131.0.2903.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [624cfe463ee62dec7d79456089861c78, findElement {value=//input[@name='quantity'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63111}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63111/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 624cfe463ee62dec7d79456089861c78
-21:21:37.134 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:21:37.429 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:21:42.826 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:21:42.827 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:21:43.866 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:21:43.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:21:43.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:21:44.341 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:21:44.352 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:21:44.353 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:21:44.476 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:21:45.145 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:21:45.146 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:21:45.146 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:21:55.309 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Exception occurred: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='quantity']"}
-  (Session info: MicrosoftEdge=131.0.2903.112)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [b4c18b9b4bdffdfe5f6302baa563e437, findElement {value=//input[@name='quantity'], using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:63403}, msedge: {msedgedriverVersion: 131.0.2903.112 (16ab910a6e7..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63403/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b4c18b9b4bdffdfe5f6302baa563e437
-21:27:37.998 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-21:27:38.273 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-21:27:45.140 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-21:27:45.140 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-21:27:46.131 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-21:27:46.148 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-21:27:46.148 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-21:27:46.684 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-21:27:46.696 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-21:27:46.696 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-21:27:46.837 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-21:27:47.467 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-21:27:47.584 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****TC_ATC_001_AddProductToCartFromProductPage*****
-17:01:26.586 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-17:01:26.995 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-17:01:34.790 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
-17:01:34.790 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
-17:01:35.529 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
-17:01:35.543 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
-17:01:35.543 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
-17:01:36.079 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
-17:01:36.093 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
-17:01:36.094 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
-17:01:36.199 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Shopping Cart link in the displayed success message **
-17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
-17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
-17:01:36.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
-17:01:36.994 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****TC_ATC_001_AddProductToCartFromProductPage*****
-17:25:56.829 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
-17:25:57.245 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
-
-17:26:03.858 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Starting TC_CO_001NavigatingToCheckoutWithNoProductsInCart*****
-17:26:03.858 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Step1:Open Home page, Click Checkout**
-17:26:04.732 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Page title is correct: Shopping Cart
-17:26:04.733 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Validate the Shopping Cart page title**
-17:26:04.733 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+20:31:58.983 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Starting CT001_AccountRegistrationTest*****
+20:31:59.476 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Clicked on 'My Account' successfully.
+20:31:59.476 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Clicked on MyAccount Link*****
+20:31:59.989 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Clicked on 'Register' successfully.
+20:31:59.990 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Clicked on Register Link*****
+20:31:59.994 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Providing customer details*****
+20:32:00.205 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text 'ADOGE' into 'FirstName' successfully.
+20:32:00.359 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text 'DDURW' into 'LastName' successfully.
+20:32:00.555 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text 'JbPRr@gmail.com' into 'Email' successfully.
+20:32:00.691 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text '3136540524' into 'Telephone' successfully.
+20:32:00.814 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text 'WqX113' into 'Password' successfully.
+20:32:00.943 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Entered text 'WqX113' into 'Confirm' successfully.
+20:32:01.065 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Clicked on 'Agree' successfully.
+20:32:03.557 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Clicked on 'Agree' successfully.
+20:32:03.557 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Validating expected message*****
+20:32:03.607 [main] INFO  testCases.user.CT001_AccountRegistrationTest - Retrieved text from 'ConfirmationMsg': Your Account Has Been Created!
+20:32:03.611 [main] INFO  testCases.user.CT001_AccountRegistrationTest - *****Finish CT001_AccountRegistrationTest*****
+20:32:09.662 [main] INFO  testCases.user.CT002_LoginTest - *****Starting CT002_LoginTest*****
+20:32:09.891 [main] INFO  testCases.user.CT002_LoginTest - Clicked on 'My Account' successfully.
+20:32:10.544 [main] INFO  testCases.user.CT002_LoginTest - Clicked on 'Login' successfully.
+20:32:10.544 [main] INFO  testCases.user.CT002_LoginTest - *****Clicked on Login Link*****
+20:32:10.804 [main] INFO  testCases.user.CT002_LoginTest - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+20:32:10.960 [main] INFO  testCases.user.CT002_LoginTest - Entered text 'test@123' into 'Password' successfully.
+20:32:11.423 [main] INFO  testCases.user.CT002_LoginTest - Clicked on 'Login' successfully.
+20:32:11.424 [main] INFO  testCases.user.CT002_LoginTest - *****Login MyAccount*****
+20:32:11.483 [main] INFO  testCases.user.CT002_LoginTest - *****Finish CT002_LoginTest*****
+20:32:17.825 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:17.832 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:17.834 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.492 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.494 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.495 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.532 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.534 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.536 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.580 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.582 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.583 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.613 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.615 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.616 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.649 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.650 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.652 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.684 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.686 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.687 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.713 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.713 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.715 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.733 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.734 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.736 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.757 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.758 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.759 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.781 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.783 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.784 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.807 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.808 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.809 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.827 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.829 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.829 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.849 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+20:32:18.850 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+20:32:18.852 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+20:32:18.875 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+20:32:19.007 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+20:32:19.502 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:19.503 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+20:32:19.771 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liut44194@gmail.com' into 'Email' successfully.
+20:32:19.893 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+20:32:20.179 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:20.180 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+20:32:20.474 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Logout' successfully.
+20:32:20.475 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+20:32:20.482 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+20:32:20.595 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+20:32:20.857 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:20.858 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+20:32:20.989 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liu@gmail.com' into 'Email' successfully.
+20:32:21.097 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'l4222' into 'Password' successfully.
+20:32:21.352 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:21.352 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+20:32:31.397 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+20:32:31.400 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+20:32:31.576 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+20:32:32.014 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:32.014 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+20:32:32.179 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wew@yahoo.com' into 'Email' successfully.
+20:32:32.297 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wewq@123' into 'Password' successfully.
+20:32:32.563 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:32.565 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+20:32:42.607 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+20:32:42.613 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+20:32:42.800 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+20:32:43.222 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:43.222 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+20:32:43.394 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'abc123@gmail.com' into 'Email' successfully.
+20:32:43.497 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+20:32:43.709 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+20:32:43.709 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+20:33:00.614 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - *****Starting CT004_DifferentWayNavigateToRegistrationPage*****
+20:33:00.885 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+20:33:01.455 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Register' successfully.
+20:33:01.455 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+20:33:01.479 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+20:33:01.647 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+20:33:01.970 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Login' successfully.
+20:33:01.970 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+20:33:01.987 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+20:33:01.987 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+20:33:02.309 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Continue' successfully.
+20:33:02.310 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+20:33:02.322 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+20:33:02.322 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+20:33:02.416 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+20:33:02.644 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Login' successfully.
+20:33:02.645 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+20:33:02.943 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Register Option From Right' successfully.
+20:33:02.943 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+20:33:02.964 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+20:33:02.964 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+20:33:02.965 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+20:33:08.710 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - *****Starting CT005_LoginWithInvalidCredentials*****
+20:33:08.944 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'My Account' successfully.
+20:33:09.485 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'Login' successfully.
+20:33:09.486 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+20:33:09.508 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+20:33:09.772 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Entered text 'xzabc123@gmail.com' into 'Email' successfully.
+20:33:09.913 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Entered text 'xyzabc123' into 'Password' successfully.
+20:33:09.913 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+20:33:10.271 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'Login' successfully.
+20:33:10.271 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+20:33:10.355 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Warning massaage is correct: Warning: No match for E-Mail Address and/or Password.
+20:33:10.357 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step4: Validate the warning massage **
+20:33:10.357 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - *****Finish CT005_LoginWithInvalidCredentials*****
+20:33:16.132 [main] INFO  testCases.user.CT006_LogOutTest - *****Starting CT006_LogOutTest*****
+20:33:16.412 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'My Account' successfully.
+20:33:16.988 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Login' successfully.
+20:33:16.988 [main] INFO  testCases.user.CT006_LogOutTest - *****Clicked on Login Link*****
+20:33:17.257 [main] INFO  testCases.user.CT006_LogOutTest - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+20:33:17.413 [main] INFO  testCases.user.CT006_LogOutTest - Entered text 'test@123' into 'Password' successfully.
+20:33:17.815 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Login' successfully.
+20:33:17.816 [main] INFO  testCases.user.CT006_LogOutTest - **Step1:Login account **
+20:33:17.927 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'My Account' successfully.
+20:33:18.248 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Logout' successfully.
+20:33:18.249 [main] INFO  testCases.user.CT006_LogOutTest - **Step2: Click My Account Logout button **
+20:33:18.273 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Account Logout
+20:33:18.274 [main] INFO  testCases.user.CT006_LogOutTest - **Step3: Validate the Logout page title **
+20:33:18.570 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Continue' successfully.
+20:33:18.591 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Your Store
+20:33:18.592 [main] INFO  testCases.user.CT006_LogOutTest - **Step4: Validate the Home page title **
+20:33:18.592 [main] INFO  testCases.user.CT006_LogOutTest - *****Finish CT006_LogOutTest*****
+20:33:24.519 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Starting CT007_ForgottenPasswordEmailIsSent*****
+20:33:24.783 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'My Account' successfully.
+20:33:25.328 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Login' successfully.
+20:33:25.329 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step1:Clicked on Homepage-MyAccount-Login**
+20:33:25.348 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
+20:33:25.348 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Account Login
+20:33:25.750 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Forgotten Passworde' successfully.
+20:33:25.750 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step2:Clicked on Forgotten Password**
+20:33:25.781 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Forgot Your Password?
+20:33:25.781 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Forgot Your Password?
+20:33:25.991 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Entered text 'liut44194@gmail.com ' into 'InputEmail' successfully.
+20:33:28.347 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Continue' successfully.
+20:33:28.348 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step3:Input Email in forgot password page and click continue**
+20:33:28.367 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
+20:33:28.368 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step4:Validate  Email success massage**
+20:33:28.434 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email massaage is correct: An email with a confirmation link has been sent your email address.
+20:33:28.434 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email success massage validated successfully
+20:33:28.434 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Finish CT007_ForgottenPasswordEmailIsSent*****
+20:33:34.299 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
+20:33:34.299 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field**
+20:33:34.520 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Entered text 'iphone' into 'Product' successfully.
+20:33:34.520 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step2:Click Search**
+20:33:34.945 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Clicked on 'Search' successfully.
+20:33:34.945 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step3:Validate the Search Result page title**
+20:33:34.961 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Page title is correct: Search - iphone
+20:33:34.962 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step4:Validate the search result**
+20:33:35.038 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
+20:33:35.039 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
+20:33:35.039 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
+20:33:40.898 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Starting TC_CO_001NavigatingToCheckoutWithNoProductsInCart*****
+20:33:40.899 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Step1:Open Home page, Click Checkout**
+20:33:41.405 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Clicked on 'Checkout' successfully.
+20:33:41.417 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Page title is correct: Shopping Cart
+20:33:41.417 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Validate the Shopping Cart page title**
+20:33:41.418 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+20:33:47.845 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - *****Starting TC_OH_007_ValidateContinueButtonInOrderHistory*****
+20:33:47.845 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step1:Open Home page->My Account->Login,navigate to Account Login page**
+20:33:48.092 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'My Account' successfully.
+20:33:48.678 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Login' successfully.
+20:33:48.698 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: Account Login
+20:33:48.698 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the Account Login page title**
+20:33:48.698 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step2:Click Login, navigate to My Account page**
+20:33:49.008 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+20:33:49.176 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Entered text 'test@123' into 'Password' successfully.
+20:33:49.500 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Login' successfully.
+20:33:49.561 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: My Account
+20:33:49.561 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the My Account page title**
+20:33:49.561 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step3:Click Order History, navigate to Order History page**
+20:33:49.645 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'My Account' successfully.
+20:33:49.905 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Order History' successfully.
+20:33:49.920 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: Order History
+20:33:49.920 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the Order History page title**
+20:33:49.920 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step4:Click Continue, navigate to My Account page**
+20:33:50.163 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Continue' successfully.
+20:33:50.178 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: My Account
+20:33:50.178 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the My Account page title**
+20:33:50.178 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - *****Finish TC_OH_007_ValidateContinueButtonInOrderHistory*****
+20:33:56.371 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:33:56.371 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:33:56.595 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:33:56.997 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:33:56.997 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:33:57.013 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:33:57.014 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:33:57.875 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+20:33:57.876 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+20:33:57.894 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+20:33:57.895 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Add To Cart in the product display page**
+20:33:58.032 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Add To Cart' successfully.
+20:33:58.032 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Click Shopping Cart link in the displayed success message **
+20:33:58.445 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Shopping Cart' successfully.
+20:33:58.461 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Shopping Cart
+20:33:58.461 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
+20:33:58.461 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
+20:33:58.560 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****

@@ -17,13 +17,13 @@ public class CT003_LoginDDT extends BaseClass {
 		try {
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
-		hp.clickLogin();;
+		hp.clickLogin();
 		logger.info("*****Clicked on Login Link*****");
 	
 		LoginPage lg=new LoginPage(driver);
 		lg.inputEmail(email);
 		lg.inputPassword(pwd);
-		lg.clickLogin();
+		lg.clickLoginInloginPage();;
 		logger.info("*****Login MyAccount*****");
 		
 		MyAccountPage ac=new MyAccountPage(driver);

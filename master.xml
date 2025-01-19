@@ -17,10 +17,9 @@
       <class name="testCases.user.CT006_LogOutTest"/>
       <class name="testCases.user.CT007_ForgottenPasswordEmailIsSent"/>
       <class name="testCases.product.TC_SF_001_SearchingExistingProductName"/>
-      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage"/>-->
       <class name="testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart"/>
-      
-    
+      <class name="testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory"/>
+      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

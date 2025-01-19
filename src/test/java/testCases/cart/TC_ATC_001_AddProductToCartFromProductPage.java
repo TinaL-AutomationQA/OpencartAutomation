@@ -30,11 +30,11 @@ public class TC_ATC_001_AddProductToCartFromProductPage extends BaseClass {
 		    logger.info("**Validate the Search Result page title**");
 		    sr.validatePageTitle("iPhone");
 		    
-		    logger.info("**Step3:Click Add To Cart in the product display page**");
+		    logger.info("**Step4:Click Add To Cart in the product display page**");
 		    ProductDisplayPage pd=new ProductDisplayPage(driver);
 		    pd.clickAddToCart();
 		    
-		    logger.info("**Step4:Click Shopping Cart link in the displayed success message **");
+		    logger.info("**Step5:Click Shopping Cart link in the displayed success message **");
 		    pd.clickShoppingCart();
 		    pd.validatePageTitle("Shopping Cart");
 		    logger.info("Validated Shopping Cart page title successfully");

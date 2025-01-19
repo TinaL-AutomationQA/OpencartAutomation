@@ -8,13 +8,13 @@
     <parameter name="os" value="windows"/>
     <parameter name="browsers" value="edge"/>
     <classes>
-      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage">
+      <class name="testCases.user.CT003_LoginDDT">
         <methods>
+          <include name="verify_loginDDT" invocation-numbers="3"/>
           <include name="tearDown"/>
-          <include name="AddProductToCartFromProductPage"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testCases.cart.TC_ATC_001_AddProductToCartFromProductPage -->
+      </class> <!-- testCases.user.CT003_LoginDDT -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

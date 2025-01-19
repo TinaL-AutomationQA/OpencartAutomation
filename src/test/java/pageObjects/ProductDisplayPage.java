@@ -18,13 +18,13 @@ public class ProductDisplayPage extends BasePage {
 	
 	public void clickAddToCart()
  	{
-		bntAddToCart.click();
+		waitForElementClickable(bntAddToCart);
+		clickElement(bntAddToCart, "Add To Cart");
  	}
 	
 	public void clickShoppingCart()
  	{
-		waitForElementVisible(altAddToCart);
-		bntShoppingCart.click();
+		clickElement(bntShoppingCart, "Shopping Cart");
  	}
 	
 	public void validateSuccessAddToCartMsg(String expectedMsg) {

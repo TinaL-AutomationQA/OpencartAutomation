@@ -41,27 +41,27 @@ public class LoginPage extends BasePage{
 	
 	public void inputEmail(String email)
     {
-		txtInputEmail.sendKeys(email);
+		enterText(txtInputEmail,email,"Email");
     }
 	
 	public void inputPassword(String password)
     {
-		txtInputPassword.sendKeys(password);
+		enterText(txtInputPassword,password,"Password");
     }
 	
 	public void clickContinue()
 	{
-		bntContinue.click();
+		clickElement(bntContinue, "Continue");
 	}
 	
 	public void clickLoginInloginPage()
 	{
-		bntLogin.click();
+		clickElement(bntLogin, "Login");
 	}
 	 
 	public void clickRegisterOptionFromRight()
 	{
-		bntRegisterRight.click();
+		clickElement(bntRegisterRight, "Register Option From Right");
 	}
 	
 	public String gerWarningMsg() {
@@ -97,7 +97,7 @@ public class LoginPage extends BasePage{
 	
 	public void clickForgottenPassworde()
 	{
-		bntForgottenPassword.click();
+		clickElement(bntForgottenPassword, "Forgotten Passworde");
 	}
 	
 	

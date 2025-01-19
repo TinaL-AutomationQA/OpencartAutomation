@@ -1,0 +1,378 @@
+17:02:52.757 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:02:52.809 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:02:52.811 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:02:52.814 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:02:52.849 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:02:52.862 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:02:52.863 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:02:52.886 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:02:52.887 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:02:52.888 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:02:52.916 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:02:53.119 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:02:53.810 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:02:53.810 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:02:54.136 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liut44194@gmail.com' into 'Email' successfully.
+17:02:54.296 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+17:03:04.385 [main] ERROR testCases.user.CT003_LoginDDT - Failed to click 'Login': element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b409b5b7cec1ad70506114dc78fafa1a, clickElement {id=f.EA1AB1FD85643F7C5DED61C4EB7CA215.d.0133F0B524C73CCFF8D9426AF105FA6B.e.931}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57286}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b409b5b7cec1ad70506114dc78fafa1a)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: b409b5b7cec1ad70506114dc78fafa1a
+17:03:04.572 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:03:04.789 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:03:05.261 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:03:05.261 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:03:05.434 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liu@gmail.com' into 'Email' successfully.
+17:03:05.541 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'l4222' into 'Password' successfully.
+17:03:15.600 [main] ERROR testCases.user.CT003_LoginDDT - Failed to click 'Login': element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b409b5b7cec1ad70506114dc78fafa1a, clickElement {id=f.EA1AB1FD85643F7C5DED61C4EB7CA215.d.C744E5324805C24252DD0DF43B736371.e.1365}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57286}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b409b5b7cec1ad70506114dc78fafa1a)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: b409b5b7cec1ad70506114dc78fafa1a
+17:03:15.756 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:03:15.948 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:03:16.402 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:03:16.402 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:03:16.557 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wew@yahoo.com' into 'Email' successfully.
+17:03:16.678 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wewq@123' into 'Password' successfully.
+17:03:26.728 [main] ERROR testCases.user.CT003_LoginDDT - Failed to click 'Login': element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b409b5b7cec1ad70506114dc78fafa1a, clickElement {id=f.EA1AB1FD85643F7C5DED61C4EB7CA215.d.04526C267EF2E8555DE74EFD06907280.e.1924}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57286}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b409b5b7cec1ad70506114dc78fafa1a)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: b409b5b7cec1ad70506114dc78fafa1a
+17:03:26.884 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:03:27.068 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:03:27.504 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:03:27.504 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:03:27.681 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'abc123@gmail.com' into 'Email' successfully.
+17:03:27.808 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+17:03:37.860 [main] ERROR testCases.user.CT003_LoginDDT - Failed to click 'Login': element not interactable
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [b409b5b7cec1ad70506114dc78fafa1a, clickElement {id=f.EA1AB1FD85643F7C5DED61C4EB7CA215.d.B2A36C6EE640038CD63B3F8CC926CB28.e.2358}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:57286}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57286/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (b409b5b7cec1ad70506114dc78fafa1a)] -> xpath: //ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Login']]
+Session ID: b409b5b7cec1ad70506114dc78fafa1a
+17:03:43.974 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - *****Starting CT004_DifferentWayNavigateToRegistrationPage*****
+17:03:44.257 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+17:03:44.837 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Register' successfully.
+17:03:44.837 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step1:Clicked on Homepage-MyAccount-Register**
+17:03:44.855 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+17:03:44.976 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+17:03:45.354 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Login' successfully.
+17:03:45.354 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step2:Clicked on Registerpage-MyAccount-login**
+17:03:45.372 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Account Login
+17:03:45.373 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Account Login
+17:03:45.730 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Continue' successfully.
+17:03:45.731 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step3:Clicked on Loginpage-Continue**
+17:03:45.752 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+17:03:45.753 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+17:03:45.855 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'My Account' successfully.
+17:03:46.127 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Login' successfully.
+17:03:46.127 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step4:Clicked on Registerpage-MyAccount-login**
+17:03:46.466 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Clicked on 'Register Option From Right' successfully.
+17:03:46.467 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - **Step5:Clicked on Loginpage-'Register' option from the Right**
+17:03:46.493 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title is correct: Register Account
+17:03:46.493 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - Page title validated successfully: Register Account
+17:03:46.493 [main] INFO  testCases.user.CT004_DifferentWayNavigateToRegistrationPage - *****Finish CT004_DifferentWayNavigateToRegistrationPage*****
+17:03:52.348 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - *****Starting CT005_LoginWithInvalidCredentials*****
+17:03:52.594 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'My Account' successfully.
+17:03:53.220 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'Login' successfully.
+17:03:53.221 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step1:Clicked on Homepage-MyAccount-Login**
+17:03:53.239 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Page title is correct: Account Login
+17:03:53.504 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Entered text 'xzabc123@gmail.com' into 'Email' successfully.
+17:03:53.681 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Entered text 'xyzabc123' into 'Password' successfully.
+17:03:53.682 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step2:Enter invalid email address and password into the 'E-Mail Address' field **
+17:03:53.951 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Clicked on 'Login In login Page' successfully.
+17:03:53.951 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step3: Click login button **
+17:03:54.046 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - Warning massaage is correct: Warning: No match for E-Mail Address and/or Password.
+17:03:54.046 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - **Step4: Validate the warning massage **
+17:03:54.046 [main] INFO  testCases.user.CT005_LoginWithInvalidCredentials - *****Finish CT005_LoginWithInvalidCredentials*****
+17:04:00.305 [main] INFO  testCases.user.CT006_LogOutTest - *****Starting CT006_LogOutTest*****
+17:04:00.576 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'My Account' successfully.
+17:04:01.195 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Login' successfully.
+17:04:01.195 [main] INFO  testCases.user.CT006_LogOutTest - *****Clicked on Login Link*****
+17:04:01.440 [main] INFO  testCases.user.CT006_LogOutTest - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+17:04:01.602 [main] INFO  testCases.user.CT006_LogOutTest - Entered text 'test@123' into 'Password' successfully.
+17:04:01.925 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Login In login Page' successfully.
+17:04:01.925 [main] INFO  testCases.user.CT006_LogOutTest - **Step1:Login account **
+17:04:02.062 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'My Account' successfully.
+17:04:02.371 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Logout' successfully.
+17:04:02.371 [main] INFO  testCases.user.CT006_LogOutTest - **Step2: Click My Account Logout button **
+17:04:02.389 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Account Logout
+17:04:02.389 [main] INFO  testCases.user.CT006_LogOutTest - **Step3: Validate the Logout page title **
+17:04:02.662 [main] INFO  testCases.user.CT006_LogOutTest - Clicked on 'Continue' successfully.
+17:04:02.691 [main] INFO  testCases.user.CT006_LogOutTest - Page title is correct: Your Store
+17:04:02.691 [main] INFO  testCases.user.CT006_LogOutTest - **Step4: Validate the Home page title **
+17:04:02.691 [main] INFO  testCases.user.CT006_LogOutTest - *****Finish CT006_LogOutTest*****
+17:04:08.587 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Starting CT007_ForgottenPasswordEmailIsSent*****
+17:04:08.915 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'My Account' successfully.
+17:04:09.445 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Login' successfully.
+17:04:09.445 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step1:Clicked on Homepage-MyAccount-Login**
+17:04:09.465 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
+17:04:09.465 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Account Login
+17:04:09.831 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Forgotten Passworde' successfully.
+17:04:09.831 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step2:Clicked on Forgotten Password**
+17:04:09.853 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Forgot Your Password?
+17:04:09.853 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title validated successfully: Forgot Your Password?
+17:04:10.091 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Entered text 'liut44194@gmail.com ' into 'InputEmail' successfully.
+17:04:12.469 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Clicked on 'Continue' successfully.
+17:04:12.469 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step3:Input Email in forgot password page and click continue**
+17:04:12.490 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Page title is correct: Account Login
+17:04:12.490 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - **Step4:Validate  Email success massage**
+17:04:12.551 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email massaage is correct: An email with a confirmation link has been sent your email address.
+17:04:12.552 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - Email success massage validated successfully
+17:04:12.552 [main] INFO  testCases.user.CT007_ForgottenPasswordEmailIsSent - *****Finish CT007_ForgottenPasswordEmailIsSent*****
+17:04:18.278 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Starting TC_SF_001_SearchingExistingProductName*****
+17:04:18.278 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field**
+17:04:18.512 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Entered text 'iphone' into 'Product' successfully.
+17:04:18.512 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step2:Click Search**
+17:04:18.947 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Clicked on 'Search' successfully.
+17:04:18.947 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step3:Validate the Search Result page title**
+17:04:18.974 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Page title is correct: Search - iphone
+17:04:18.974 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - **Step4:Validate the search result**
+17:04:19.056 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product is correct: iPhone
+17:04:19.056 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - Product validated successfully
+17:04:19.056 [main] INFO  testCases.product.TC_SF_001_SearchingExistingProductName - *****Finish TC_SF_001_SearchingExistingProductName*****
+17:04:24.766 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+17:04:24.766 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+17:04:24.919 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+17:04:25.379 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+17:04:25.380 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+17:04:25.395 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+17:04:25.395 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+17:04:26.020 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+17:04:26.020 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+17:04:26.042 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+17:04:26.043 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+17:04:27.149 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Failed to click 'Continue': element click intercepted: Element <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">...</button> is not clickable at point (1146, 612). Other element would receive the click: <div class="mfp-container mfp-image-holder mfp-s-ready">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7f9085b40d6c9de8a63ff5c66c31d47d, clickElement {id=f.8540FBF3CA1AEB3FC6A7615020E94C1F.d.3F889CE26151F2C7A8B3452B4A78B3D6.e.1617}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:61932}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61932/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (7f9085b40d6c9de8a63ff5c66c31d47d)] -> xpath: //button[@id='button-cart']]
+Session ID: 7f9085b40d6c9de8a63ff5c66c31d47d
+17:04:33.996 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Starting TC_CO_001NavigatingToCheckoutWithNoProductsInCart*****
+17:04:33.996 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Step1:Open Home page, Click Checkout**
+17:04:34.628 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Clicked on 'Checkout' successfully.
+17:04:34.650 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - Page title is correct: Shopping Cart
+17:04:34.651 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - **Validate the Shopping Cart page title**
+17:04:34.651 [main] INFO  testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+17:04:41.159 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - *****Starting TC_OH_007_ValidateContinueButtonInOrderHistory*****
+17:04:41.159 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step1:Open Home page->My Account->Login,navigate to Account Login page**
+17:04:41.446 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'My Account' successfully.
+17:04:41.933 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Login' successfully.
+17:04:41.957 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: Account Login
+17:04:41.957 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the Account Login page title**
+17:04:41.957 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step2:Click Login, navigate to My Account page**
+17:04:42.314 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+17:04:42.457 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Entered text 'test@123' into 'Password' successfully.
+17:04:42.745 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Login In login Page' successfully.
+17:04:42.820 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: My Account
+17:04:42.820 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the My Account page title**
+17:04:42.821 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step3:Click Order History, navigate to Order History page**
+17:04:42.926 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'My Account' successfully.
+17:04:43.201 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Order History' successfully.
+17:04:43.249 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: Order History
+17:04:43.249 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the Order History page title**
+17:04:43.249 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Step4:Click Continue, navigate to My Account page**
+17:04:43.502 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Clicked on 'Continue' successfully.
+17:04:43.522 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - Page title is correct: My Account
+17:04:43.522 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - **Validate the My Account page title**
+17:04:43.522 [main] INFO  testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory - *****Finish TC_OH_007_ValidateContinueButtonInOrderHistory*****
+17:15:41.436 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+17:15:41.875 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+17:15:49.556 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:49.560 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:49.562 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.268 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.271 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.273 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.308 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.309 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.311 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.351 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.352 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.353 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.373 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.374 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.375 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.396 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.398 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.399 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.448 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.450 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.454 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.501 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.503 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.504 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.541 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.542 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.543 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.575 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.576 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.578 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.600 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.601 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.603 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.635 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.636 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.637 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.667 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.669 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.670 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.694 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+17:15:50.695 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+17:15:50.696 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+17:15:50.742 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:15:51.630 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:15:52.428 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:15:52.429 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:15:52.673 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liut44194@gmail.com' into 'Email' successfully.
+17:15:52.819 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+17:15:53.191 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:15:53.191 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+17:15:53.764 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Logout' successfully.
+17:15:53.767 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+17:15:53.785 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:15:53.917 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:15:54.256 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:15:54.256 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:15:54.418 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'liu@gmail.com' into 'Email' successfully.
+17:15:54.543 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'l4222' into 'Password' successfully.
+17:15:54.791 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:15:54.795 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+17:16:04.877 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+17:16:04.887 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:16:05.093 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:16:05.549 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:16:05.549 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:16:05.681 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wew@yahoo.com' into 'Email' successfully.
+17:16:05.797 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'wewq@123' into 'Password' successfully.
+17:16:06.033 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:16:06.033 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+17:16:16.087 [main] INFO  testCases.user.CT003_LoginDDT - *****Finished CT003_LoginDDT*****
+17:16:16.098 [main] INFO  testCases.user.CT003_LoginDDT - *****Starting CT003_LoginDDT*****
+17:16:16.264 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'My Account' successfully.
+17:16:16.703 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:16:16.703 [main] INFO  testCases.user.CT003_LoginDDT - *****Clicked on Login Link*****
+17:16:16.872 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'abc123@gmail.com' into 'Email' successfully.
+17:16:16.994 [main] INFO  testCases.user.CT003_LoginDDT - Entered text 'test@123' into 'Password' successfully.
+17:16:17.206 [main] INFO  testCases.user.CT003_LoginDDT - Clicked on 'Login' successfully.
+17:16:17.206 [main] INFO  testCases.user.CT003_LoginDDT - *****Login MyAccount*****
+20:12:17.461 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:12:17.909 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:12:25.031 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:12:25.032 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:12:25.520 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:12:26.125 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:12:26.125 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:12:26.139 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:12:26.139 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:12:26.740 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+20:12:26.740 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+20:12:26.756 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+20:12:26.757 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click Add To Cart in the product display page**
+20:12:27.881 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Failed to click 'Continue': element click intercepted: Element <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">...</button> is not clickable at point (1146, 612). Other element would receive the click: <div class="mfp-container mfp-image-holder mfp-s-ready">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f82f8711a397d47f3b4ed19d10becded, clickElement {id=f.DF32BE8AF08DD362B506E10B3BB0ECA2.d.EE0B1BFCD010A10C10BDBE728BD46A11.e.107}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:55431}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55431/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f82f8711a397d47f3b4ed19d10becded)] -> xpath: //button[@id='button-cart']]
+Session ID: f82f8711a397d47f3b4ed19d10becded
+20:16:53.456 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:16:53.865 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:17:00.086 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:17:00.086 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:17:00.286 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:17:00.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:17:00.879 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:17:00.895 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:17:00.895 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:17:01.562 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+20:17:01.562 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+20:17:01.587 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+20:17:01.587 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Add To Cart in the product display page**
+20:17:02.771 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Failed to click 'Add To Cart': element click intercepted: Element <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">...</button> is not clickable at point (1146, 612). Other element would receive the click: <div class="mfp-container mfp-image-holder mfp-s-ready">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [f1da336ad435a9bfa1ca18387d5213ee, clickElement {id=f.0386BE84F35346A7E350922D99F19943.d.5C5C9EC02BF8D68F592E40E631922604.e.106}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:64537}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64537/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (f1da336ad435a9bfa1ca18387d5213ee)] -> xpath: //button[@id='button-cart']]
+Session ID: f1da336ad435a9bfa1ca18387d5213ee
+20:20:38.630 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:20:38.936 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:20:44.997 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:20:44.997 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:20:45.239 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:20:45.729 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:20:45.729 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:20:45.752 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:20:45.753 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:20:46.450 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+20:20:46.451 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Validate the Search Result page title**
+20:20:46.495 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: iPhone
+20:20:46.495 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step4:Click Add To Cart in the product display page**
+20:20:47.756 [main] ERROR testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Failed to click 'Add To Cart': element click intercepted: Element <button type="button" id="button-cart" data-loading-text="Loading..." class="btn btn-primary btn-lg btn-block">...</button> is not clickable at point (1146, 612). Other element would receive the click: <div class="mfp-container mfp-image-holder mfp-s-ready">...</div>
+  (Session info: MicrosoftEdge=131.0.2903.112)
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a3ecfb66519a3f89bbe57281ac90c6d2, clickElement {id=f.1589E3E1644DBBB2297F83BCF287C9AF.d.332CC0B800C95557DABF7FE6B8DE572B.e.105}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 131.0.2903.112, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:51972}, msedge: {msedgedriverVersion: 131.0.2903.146 (99fcb90c1ee..., userDataDir: C:\Users\liut4\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51972/devtoo..., se:cdpVersion: 131.0.2903.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (a3ecfb66519a3f89bbe57281ac90c6d2)] -> xpath: //button[@id='button-cart']]
+Session ID: a3ecfb66519a3f89bbe57281ac90c6d2
+20:24:54.149 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:24:54.497 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:25:00.240 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:25:00.240 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:25:00.558 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:25:01.348 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:25:01.348 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:25:01.367 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:25:01.367 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:25:01.932 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.
+20:25:01.932 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+20:29:37.303 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:29:37.615 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:29:43.653 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Starting TC_ATC_001_AddProductToCartFromProductPage*****
+20:29:43.653 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step1:Open Home page, Enter product name 'iphone' into the 'Search' text box field and click search**
+20:29:44.122 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Entered text 'iphone' into 'Product' successfully.
+20:29:44.716 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Search' successfully.
+20:29:44.716 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step2:Validate the Search Result page title**
+20:29:44.731 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Page title is correct: Search - iphone
+20:29:44.731 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step3:Click on the Product displayed in the Search results**
+20:29:45.473 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Clicked on 'Iphone' successfully.

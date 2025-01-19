@@ -15,7 +15,7 @@ public class SearchResultPage extends BasePage {
 	@FindBy(xpath="//a[normalize-space()='iPhone']") WebElement msgProduct;
 	@FindBy(xpath="//div[@class='product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12']//button[1]") WebElement bntAddToCart;
 	@FindBy(xpath="//img[@title='iPhone']") WebElement imgIphone;
-	
+
 	 public void validateProduct(String expectedProduct) {
 	 		waitForElementVisible(msgProduct);
 	     	String actualProduct =msgProduct.getText();
@@ -32,12 +32,13 @@ public class SearchResultPage extends BasePage {
 	 
 	 public void clickAddToCart()
 	 	{
-		 bntAddToCart.click();
+		 clickElement(bntAddToCart, "Add To Cart");
 	 	}
 	 
 	 public void clickIphone()
 	 	{
-		 imgIphone.click();
+		 msgProduct.click();
+		 clickElement(msgProduct, "Iphone");
 	 	}
 	 
 

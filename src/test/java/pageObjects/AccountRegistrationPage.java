@@ -14,6 +14,8 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@id='input-firstname']") WebElement txt_inputFirstName;
 	@FindBy(xpath="//input[@id='input-lastname']") WebElement txt_inputLastName;
 	@FindBy(xpath="//input[@id='input-email']") WebElement txt_inputEmail;
+	
+	
 	@FindBy(xpath="//input[@id='input-telephone']") WebElement txt_inputTelephone;
 	@FindBy(xpath="//input[@id='input-password']") WebElement txt_inputPassword;
 	@FindBy(xpath="//input[@id='input-confirm']") WebElement txt_inputConfirm;
@@ -21,53 +23,44 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//input[@value='Continue']") WebElement btn_Continue;
 	@FindBy(xpath="//h1[normalize-space()='Your Account Has Been Created!']") WebElement msgConfirmation;
 	
+	public void inputFirstName (String fname) {
+        enterText(txt_inputFirstName, fname, "FirstName");
+    }
 	
+	public void inputLastName (String lname) {
+        enterText(txt_inputLastName, lname, "LastName");
+    }
 	
+	public void inputEmail (String email) {
+        enterText(txt_inputEmail, email, "Email");
+    }
 	
-	  public void inputFirstName(String fname)
-	     {
-		  txt_inputFirstName.sendKeys(fname);
-	     }
+	public void inputTelephone (String telephone) {
+        enterText(txt_inputTelephone, telephone, "Telephone");
+    }
+	
+	public void inputPassword (String password) {
+        enterText(txt_inputPassword, password, "Password");
+    }
+	 
+    public void inputConfirm(String confirm)
+	{
+	    enterText(txt_inputConfirm,confirm,"Confirm");
+	}
+    
 	  
-	  public void inputLastName(String lname)
-	     {
-		  txt_inputLastName.sendKeys(lname);
-	     }
-	  public void inputEmail(String email)
-	     {
-		  txt_inputEmail.sendKeys(email);
-	     }
-	  public void inputTelephone(String telephone)
-	     {
-		  txt_inputTelephone.sendKeys(telephone);
-	     }
-	  public void inputPassword(String password)
-	  {
-		  txt_inputPassword.sendKeys(password);
-	  }
-	  public void inputConfirm(String confirm)
-	  {
-		  txt_inputConfirm.sendKeys(confirm);
-	  }
-	  public void Agree()
-	  {
-		  chk_Agree.click();
-	  }
-	  public void Continue()
-	  {
-		  btn_Continue.click();
-	  }
-	  
-	  public String gerConfirmationMsg() {
-	  try{
-		  return(msgConfirmation.getText());
-		  
-	  }catch(Exception e) {
-		  return(e.getMessage());
-	  }
-	
-	
-	
+    public void Agree() {
+        clickElement(chk_Agree, "Agree");
+    }
+    
+    public void Continue() {
+        clickElement(btn_Continue, "Agree");
+    }
+    
+	 
+	public String gerConfirmationMsg() {
+	    return getText(msgConfirmation, "ConfirmationMsg");
+	    }
 	
 	  }
-}
+

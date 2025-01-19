@@ -20,11 +20,10 @@ public class ForgotPasswordPage extends BasePage {
 	public void inputEmail()
     {
 		String email = BaseClass.p.getProperty("email");
-		txtInputEmail.sendKeys(email);
+		enterText(txtInputEmail, email, "InputEmail");
     }
 	
-	public void clickContinue()
-	{
-		bntContinue.click();
-	}
+	public void clickContinue() {
+        clickElement(bntContinue, "Continue");
+    }
 }

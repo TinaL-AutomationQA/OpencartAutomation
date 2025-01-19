@@ -17,16 +17,14 @@ public class HomePage extends BasePage{
      @FindBy(xpath="//button[@class='btn btn-default btn-lg']") WebElement bntSearch;
      
      
-     
-     
      public void inputProduct()
      {
  		String product = BaseClass.p.getProperty("searchProductName");
- 		txtInputSearch.sendKeys(product);
+ 		enterText(txtInputSearch,product,"Product");
      }
      public void clickSearch()
  	{
-    	 bntSearch.click();
+    	 clickElement(bntSearch, "Search");
  	}
     
      }
