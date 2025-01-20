@@ -14,12 +14,16 @@
       <class name="testCases.user.CT003_LoginDDT"/>
       <class name="testCases.user.CT004_DifferentWayNavigateToRegistrationPage"/>
       <class name="testCases.user.CT005_LoginWithInvalidCredentials"/>
-      <class name="testCases.user.CT006_LogOutTest"/>
+      <class name="testCases.user.TC_LG_001_LogOutFromMyAccountDropDownMenu"/>
       <class name="testCases.user.CT007_ForgottenPasswordEmailIsSent"/>
       <class name="testCases.product.TC_SF_001_SearchingExistingProductName"/>
       <class name="testCases.checkout.TC_CO_001NavigatingToCheckoutWithNoProductsInCart"/>
       <class name="testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory"/>
-      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage"/>-->
+      <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage"/>
+      <class name="testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions"/>
+      <class name="testCases.user.TC_LG_002_LogOutFromRightColumnOptions"/>-->
+   <class name="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount"/>
+   
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

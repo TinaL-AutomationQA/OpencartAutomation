@@ -39,7 +39,7 @@ public class CT003_LoginDDT extends BaseClass {
 		{
 			if(targetPage==true)
 			{
-				ac.Clicklogout();
+				ac.clickLogout();
 				Assert.assertTrue(true);
 			}
 			else
@@ -51,7 +51,7 @@ public class CT003_LoginDDT extends BaseClass {
 		{
 			if(targetPage==true)
 			{
-				ac.Clicklogout();
+				ac.clickLogout();
 				Assert.assertTrue(false);
 			}
 			else

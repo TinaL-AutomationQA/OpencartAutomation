@@ -115,6 +115,12 @@ public class BasePage {
     public void clickContactUs() {
         clickElement(bntContactUs, "ContactUs");
     }
+  // Click Log Out
+    public void clickLogOut() {
+        clickElement(bntLogOut, "Log Out");
+    }
+    
+    
 
     // Located element
     @FindBy(xpath = "//span[normalize-space()='My Account']")
@@ -131,5 +137,8 @@ public class BasePage {
 
     @FindBy(xpath = "//i[@class='fa fa-phone']")
     WebElement bntContactUs;
+    
+    @FindBy(xpath = "//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Logout']")
+    WebElement bntLogOut;
 }
 

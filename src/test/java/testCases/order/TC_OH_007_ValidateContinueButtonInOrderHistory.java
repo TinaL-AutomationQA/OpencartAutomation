@@ -33,7 +33,7 @@ public class TC_OH_007_ValidateContinueButtonInOrderHistory extends BaseClass{
 			logger.info("**Step3:Click Order History, navigate to Order History page**");
 			MyAccountPage mg=new MyAccountPage(driver);
 			mg.clickMyAccount();
-			mg.ClickOrderHistory();
+			mg.clickOrderHistory();
 			mg.validatePageTitle("Order History");
 			logger.info("**Validate the Order History page title**");
 			

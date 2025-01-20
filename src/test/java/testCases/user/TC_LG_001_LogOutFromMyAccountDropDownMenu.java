@@ -9,10 +9,10 @@ import pageObjects.LoginPage;
 import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
-public class CT006_LogOutTest extends BaseClass{
+public class TC_LG_001_LogOutFromMyAccountDropDownMenu extends BaseClass{
 	@Test(groups= {"Regression","Master"},description = "Validate Logging out by selecting Logout option from 'My Account' dropmenu") 
 	public void LogOutFromMyAccount() {
-		logger.info("*****Starting CT006_LogOutTest*****");
+		logger.info("*****Starting TC_LG_001_LogOutFromMyAccountDropDownMenu*****");
 		try {
 			//Step1:Login account 
 			HomePage hp=new HomePage(driver);
@@ -25,7 +25,7 @@ public class CT006_LogOutTest extends BaseClass{
 		    //Step2:Logout account
 		    MyAccountPage ma=new MyAccountPage(driver);
 		    ma.clickMyAccount();
-		    ma.Clicklogout();
+		    ma.clickLogOut();
 		    logger.info("**Step2: Click My Account Logout button **");
 		    //Step3:Validate Logout page title
 		    ma.validatePageTitle("Account Logout");
@@ -42,7 +42,7 @@ public class CT006_LogOutTest extends BaseClass{
 	        e.printStackTrace();
 	        Assert.fail("Test case failed due to exception: " + e.getMessage());
 	    }
-		logger.info("*****Finish CT006_LogOutTest*****");
+		logger.info("*****Finish TC_LG_001_LogOutFromMyAccountDropDownMenu*****");
 	}
 	}
 

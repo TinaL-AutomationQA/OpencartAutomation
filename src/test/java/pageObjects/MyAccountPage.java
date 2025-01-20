@@ -14,6 +14,8 @@ public class MyAccountPage extends BasePage{
 	@FindBy(linkText="Login") WebElement login;
 	@FindBy(xpath="//ul[@class='dropdown-menu dropdown-menu-right']//a[normalize-space()='Order History']") WebElement bntOrderHistory;
 	
+	
+	
 	public boolean isMyAccountPageExists()
 	{
 		try {
@@ -25,12 +27,12 @@ public class MyAccountPage extends BasePage{
 			return false;
 		}
 	}
-	public void Clicklogout()
+	public void clickLogout()
 	{
 		clickElement(bntLogout, "Logout");
 	}
 	
-	public void ClickOrderHistory()
+	public void clickOrderHistory()
 	{
 		clickElement(bntOrderHistory, "Order History");
 	}

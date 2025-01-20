@@ -243,3 +243,54 @@
 20:33:58.461 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - Validated Shopping Cart page title successfully
 20:33:58.461 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - **Step5:Validated add the product to Shopping Cart**
 20:33:58.560 [main] INFO  testCases.cart.TC_ATC_001_AddProductToCartFromProductPage - *****Finish TC_ATC_001_AddProductToCartFromProductPage*****
+14:47:40.424 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+14:47:40.807 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+14:47:48.692 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - *****Starting TC_CU_001_NavigatingContactUsFromHeader0ptions*****
+14:47:48.692 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - **Step1:Open Home page->Phone icon->navigate to Contact Us page**
+14:47:49.696 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - Clicked on 'ContactUs' successfully.
+14:47:49.714 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - Page title is correct: Contact Us
+14:47:49.714 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - **Validate the Contact Us page title**
+14:47:49.714 [main] INFO  testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions - *****Finish TC_CU_001_NavigatingContactUsFromHeader0ptionsy*****
+15:20:45.913 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+15:20:46.331 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+15:20:53.057 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - *****Starting TC_LG_002_LogOutFromRightColumnOptions*****
+15:20:53.439 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'My Account' successfully.
+15:20:54.126 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'Login' successfully.
+15:20:54.126 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - *****Clicked on Login Link*****
+15:20:54.414 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Entered text 'liut44194@gmail.com ' into 'Email' successfully.
+15:20:54.571 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Entered text 'test@123' into 'Password' successfully.
+15:20:54.915 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'Login' successfully.
+15:20:54.915 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - **Step1:Login account **
+15:20:55.019 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'My Account' successfully.
+15:20:55.403 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'Logout' successfully.
+15:20:55.403 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - **Step2: Click Logout button on the right**
+15:20:55.432 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Page title is correct: Account Logout
+15:20:55.433 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - **Step3: Validate the Logout page title **
+15:20:55.843 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Clicked on 'Continue' successfully.
+15:20:55.871 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - Page title is correct: Your Store
+15:20:55.871 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - **Step4: Validate the Home page title **
+15:20:55.871 [main] INFO  testCases.user.TC_LG_002_LogOutFromRightColumnOptions - *****Finish TC_LG_002_LogOutFromRightColumnOptions*****
+20:04:49.914 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+20:04:50.354 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+20:04:57.818 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - *****Starting TC_FP_005_ResettingPasswordForNon_registeredAccount*****
+20:04:58.140 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'My Account' successfully.
+20:04:58.823 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Login' successfully.
+20:04:58.824 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step1:Clicked on Homepage-MyAccount-Login**
+20:04:58.838 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title is correct: Account Login
+20:04:58.838 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title validated successfully: Account Login
+20:04:59.211 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Forgotten Passworde' successfully.
+20:04:59.211 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step2:Clicked on Forgotten Password**
+20:04:59.240 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title is correct: Forgot Your Password?
+20:04:59.241 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title validated successfully: Forgot Your Password?
+20:04:59.387 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Entered text 'dDrXW@gmail.com' into 'InputEmail' successfully.
+20:04:59.701 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Continue' successfully.
+20:04:59.702 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step3:Input Non_registered Email in forgot password page and click continue **
+20:04:59.799 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Warning massaage is correct: Warning: The E-Mail Address was not found in our records, please try again!
+20:04:59.800 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - The E-Mail Address was not found massage validated successfully
+20:04:59.800 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - *****Finish TC_FP_005_ResettingPasswordForNon_registeredAccount*****
