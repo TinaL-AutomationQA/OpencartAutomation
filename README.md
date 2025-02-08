@@ -4,7 +4,7 @@
 
 This is a hybrid automation testing framework built using **Selenium**, **TestNG**, and **ExtentReports**. It is designed to test web applications with a focus on scalability, reusability, and maintainability. The framework supports key testing scenarios, including functional testing, regression testing, and data-driven testing.
 
-This framework was developed as part of my self-learning journey to enhance my skills in automation testing.
+This framework was developed as part of my self-learning journey to enhance my skills in building automation framwork.
 
 ## Features
 
