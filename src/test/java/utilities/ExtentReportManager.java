@@ -45,7 +45,7 @@ public class ExtentReportManager implements ITestListener {
         extent.setSystemInfo("Module", "Admin");
         extent.setSystemInfo("Sub Module", "Customers");
         extent.setSystemInfo("User Name", System.getProperty("user.name"));
-        extent.setSystemInfo("Enc=vironment", "QA");
+        extent.setSystemInfo("Environment", "QA");
         
         String os=testContext.getCurrentXmlTest().getParameter("os");
         extent.setSystemInfo("Operating System", os);

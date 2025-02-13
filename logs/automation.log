@@ -294,3 +294,23 @@
 20:04:59.799 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Warning massaage is correct: Warning: The E-Mail Address was not found in our records, please try again!
 20:04:59.800 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - The E-Mail Address was not found massage validated successfully
 20:04:59.800 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - *****Finish TC_FP_005_ResettingPasswordForNon_registeredAccount*****
+17:30:03.492 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml"
+17:30:03.751 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\liut4\eclipse-workspace2\5Opencart\master.xml
+
+17:30:07.975 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - *****Starting TC_FP_005_ResettingPasswordForNon_registeredAccount*****
+17:30:08.211 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'My Account' successfully.
+17:30:08.568 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Login' successfully.
+17:30:08.568 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step1:Clicked on Homepage-MyAccount-Login**
+17:30:08.594 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title is correct: Account Login
+17:30:08.594 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title validated successfully: Account Login
+17:30:08.926 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Forgotten Passworde' successfully.
+17:30:08.926 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step2:Clicked on Forgotten Password**
+17:30:08.946 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title is correct: Forgot Your Password?
+17:30:08.947 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Page title validated successfully: Forgot Your Password?
+17:30:09.144 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Entered text 'Wbocy@gmail.com' into 'InputEmail' successfully.
+17:30:09.734 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Clicked on 'Continue' successfully.
+17:30:09.734 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - **Step3:Input Non_registered Email in forgot password page and click continue **
+17:30:09.823 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - Warning massaage is correct: Warning: The E-Mail Address was not found in our records, please try again!
+17:30:09.823 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - The E-Mail Address was not found massage validated successfully
+17:30:09.823 [main] INFO  testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount - *****Finish TC_FP_005_ResettingPasswordForNon_registeredAccount*****

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-19T20:04:50 PST" name="Suite" finished-at="2025-01-19T20:05:01 PST" duration-ms="10859">
+  <suite started-at="2025-01-25T17:30:03 PST" name="Suite" finished-at="2025-01-25T17:30:11 PST" duration-ms="7414">
     <groups>
       <group name="Master">
         <method signature="TC_FP_005_ResettingPasswordForNon_registeredAccount.EmailIsSentResetingPassword()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" name="EmailIsSentResetingPassword" class="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount"/>
@@ -11,9 +11,9 @@
         <method signature="TC_FP_005_ResettingPasswordForNon_registeredAccount.EmailIsSentResetingPassword()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" name="EmailIsSentResetingPassword" class="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2025-01-19T20:04:50 PST" name="Test" finished-at="2025-01-19T20:05:01 PST" duration-ms="10859">
+    <test started-at="2025-01-25T17:30:03 PST" name="Test" finished-at="2025-01-25T17:30:11 PST" duration-ms="7414">
       <class name="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount">
-        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-19T20:04:50 PST" name="setUp" finished-at="2025-01-19T20:04:57 PST" duration-ms="7126" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-25T17:30:04 PST" name="setUp" finished-at="2025-01-25T17:30:07 PST" duration-ms="3800" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="EmailIsSentResetingPassword()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-19T20:04:57 PST" name="EmailIsSentResetingPassword" description="Validate an email is sent with the proper details on resetting the password" finished-at="2025-01-19T20:04:59 PST" duration-ms="2012" status="PASS">
+        <test-method signature="EmailIsSentResetingPassword()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-25T17:30:07 PST" name="EmailIsSentResetingPassword" description="Validate an email is sent with the proper details on resetting the password" finished-at="2025-01-25T17:30:09 PST" duration-ms="1882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EmailIsSentResetingPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-19T20:04:59 PST" name="tearDown" finished-at="2025-01-19T20:05:01 PST" duration-ms="1411" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount@16414e40]" started-at="2025-01-25T17:30:09 PST" name="tearDown" finished-at="2025-01-25T17:30:11 PST" duration-ms="1344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

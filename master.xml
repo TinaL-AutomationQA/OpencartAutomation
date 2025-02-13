@@ -11,7 +11,7 @@
     <classes>
       <!--<class name="testCases.user.CT001_AccountRegistrationTest"/>
       <class name="testCases.user.CT002_LoginTest"/>
-      <class name="testCases.user.CT003_LoginDDT"/>
+      <class name="testCases.user.CT003_LoginDDT"/>-->
       <class name="testCases.user.CT004_DifferentWayNavigateToRegistrationPage"/>
       <class name="testCases.user.CT005_LoginWithInvalidCredentials"/>
       <class name="testCases.user.TC_LG_001_LogOutFromMyAccountDropDownMenu"/>
@@ -21,8 +21,8 @@
       <class name="testCases.order.TC_OH_007_ValidateContinueButtonInOrderHistory"/>
       <class name="testCases.cart.TC_ATC_001_AddProductToCartFromProductPage"/>
       <class name="testCases.other.TC_CU_001_NavigatingContactUsFromHeader0ptions"/>
-      <class name="testCases.user.TC_LG_002_LogOutFromRightColumnOptions"/>-->
-   <class name="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount"/>
+      <class name="testCases.user.TC_LG_002_LogOutFromRightColumnOptions"/>
+      <class name="testCases.user.TC_FP_005_ResettingPasswordForNon_registeredAccount"/>
    
     </classes>
   </test> <!-- Test -->
