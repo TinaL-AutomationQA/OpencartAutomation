@@ -25,9 +25,12 @@ src/test/java
 │   └── ...
 │
 ├── testCases           # Test classes for functional and regression testing
-│   ├── LoginTest.java
-│   ├── RegistrationTest.java
-│   └── ...
+│   │   ├── cart            # Cart-related test cases
+│   │   ├── checkout        # Checkout-related test cases
+│   │   ├── order           # Order management test cases
+│   │   ├── other           # Miscellaneous test cases
+│   │   ├── product         # Product-related test cases
+│   │   ├── user            # User-related test cases
 │
 ├── testBase            # Base class for WebDriver setup and configuration
 │   └── BaseClass.java
